@@ -2,10 +2,12 @@
   "id": 1729852267,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-01",
+    "date:cessation_upper": "2021-03-01",
     "date:inception_lower": "2021-03-01",
     "date:inception_upper": "2021-03-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-01",
+    "edtf:cessation": "2021-03-01T23:52:15Z",
+    "edtf:inception": "2021-03-01T22:39:00Z",
     "flysfo:actual_timestamp": 1614636900,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-03-01",
@@ -48,6 +50,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149980302"
+    },
     "wof:country": "US",
     "wof:created": 1614701424,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -84,7 +89,7 @@
       1159284401, 
       1729792587
     ],
-    "wof:lastmodified": 1614701424,
+    "wof:lastmodified": 1614701571,
     "wof:name": "F92098 (SFO-LAS)",
     "wof:parent_id": 1729792587,
     "wof:placetype": "event",

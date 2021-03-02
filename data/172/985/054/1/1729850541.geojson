@@ -2,10 +2,12 @@
   "id": 1729850541,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-01",
+    "date:cessation_upper": "2021-03-01",
     "date:inception_lower": "2021-03-01",
     "date:inception_upper": "2021-03-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-01",
+    "edtf:cessation": "2021-03-01T15:59:24Z",
+    "edtf:inception": "2021-03-01T09:54:44Z",
     "flysfo:actual_timestamp": 1614646020,
     "flysfo:airline": "AI",
     "flysfo:date": "2021-03-01",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +53,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149991899"
+    },
     "wof:country": "US",
     "wof:created": 1614700949,
     "wof:geomhash": "71cdaf51a648b6adc1eef8af56a4c6ba",
@@ -84,7 +92,7 @@
       1159283649, 
       1729792667
     ],
-    "wof:lastmodified": 1614700949,
+    "wof:lastmodified": 1614701567,
     "wof:name": "AI175 (BLR-SFO)",
     "wof:parent_id": 1729792667,
     "wof:placetype": "event",
