@@ -2,10 +2,12 @@
   "id": 1729857399,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-03",
+    "date:cessation_upper": "2021-03-03",
     "date:inception_lower": "2021-03-03",
     "date:inception_upper": "2021-03-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-03",
+    "edtf:cessation": "2021-03-03T21:23:00Z",
+    "edtf:inception": "2021-03-03T17:06:00Z",
     "flysfo:actual_timestamp": 1614816000,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-03-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.61799,
     "geom:longitude": -122.370943,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527513,
@@ -34,19 +38,25 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "150073220",
+      "swim:gufi": "KO55757400"
+    },
     "wof:country": "US",
     "wof:created": 1614873953,
     "wof:geomhash": "f780d59ec1f4d1acb53d14db45159ea5",
     "wof:hierarchy": [],
     "wof:id": 1729857399,
     "wof:involves": [
+      1159289411, 
       102527513, 
-      102527513, 
-      1159283849, 
-      -1
+      1159283849
     ],
-    "wof:lastmodified": 1614873953,
+    "wof:lastmodified": 1614874214,
     "wof:name": "AA1075 (SFO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1729858063,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-03",
+    "date:cessation_upper": "2021-03-03",
     "date:inception_lower": "2021-03-03",
     "date:inception_upper": "2021-03-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-03",
+    "edtf:cessation": "2021-03-03T22:15:13Z",
+    "edtf:inception": "2021-03-03T20:59:00Z",
     "flysfo:actual_timestamp": 1614803940,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-03-03",
@@ -48,6 +50,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "150091403"
+    },
     "wof:country": "US",
     "wof:created": 1614874125,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -84,7 +89,7 @@
       1159285591, 
       1729792447
     ],
-    "wof:lastmodified": 1614874125,
+    "wof:lastmodified": 1614874215,
     "wof:name": "WN1362 (SFO-LAS)",
     "wof:parent_id": 1729792447,
     "wof:placetype": "event",

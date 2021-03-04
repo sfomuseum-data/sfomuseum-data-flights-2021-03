@@ -2,10 +2,12 @@
   "id": 1729857207,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-03",
+    "date:cessation_upper": "2021-03-03",
     "date:inception_lower": "2021-03-03",
     "date:inception_upper": "2021-03-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-03",
+    "edtf:cessation": "2021-03-03T16:42:20Z",
+    "edtf:inception": "2021-03-03T15:38:00Z",
     "flysfo:actual_timestamp": 1614816000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,19 +38,27 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "150068256",
+      "swim:gufi": "KL48543400"
+    },
     "wof:country": "US",
     "wof:created": 1614873899,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
     "wof:hierarchy": [],
     "wof:id": 1729857207,
     "wof:involves": [
-      102527513, 
       102528997, 
       1159285413, 
-      -1
+      1159292085, 
+      102527513
     ],
-    "wof:lastmodified": 1614873899,
+    "wof:lastmodified": 1614874213,
     "wof:name": "UA2480 (SAN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

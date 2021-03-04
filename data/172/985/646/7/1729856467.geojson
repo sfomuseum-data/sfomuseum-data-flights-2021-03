@@ -2,10 +2,12 @@
   "id": 1729856467,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-03",
+    "date:cessation_upper": "2021-03-03",
     "date:inception_lower": "2021-03-03",
     "date:inception_upper": "2021-03-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-03",
+    "edtf:cessation": "2021-03-03T11:30:01-08:00",
+    "edtf:inception": "2021-03-03T23:19:00Z",
     "flysfo:actual_timestamp": 1614829020,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-03-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "AA",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533631,
@@ -34,19 +38,28 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N200NV",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "150099099"
+    },
     "wof:country": "US",
     "wof:created": 1614873687,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
     "wof:hierarchy": [],
     "wof:id": 1729856467,
     "wof:involves": [
+      1159289871, 
       102527513, 
       102533631, 
-      1159283849, 
-      -1
+      1159283849
     ],
-    "wof:lastmodified": 1614873687,
+    "wof:lastmodified": 1614874212,
     "wof:name": "AA2920 (ORD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
