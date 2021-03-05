@@ -2,10 +2,12 @@
   "id": 1729860969,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-04",
+    "date:cessation_upper": "2021-03-04",
     "date:inception_lower": "2021-03-04",
     "date:inception_upper": "2021-03-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-04",
+    "edtf:cessation": "2021-03-04T04:10:12-08:00",
+    "edtf:inception": "2021-03-04T16:26:00Z",
     "flysfo:actual_timestamp": 1614902400,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-03-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61492757992414,
     "lbl:longitude": -122.3823520394826,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N337NB",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KP55562500"
+    },
     "wof:country": "US",
     "wof:created": 1614960230,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1729860969,
     "wof:involves": [
-      102527513, 
-      102531131, 
       1159284261, 
-      1729792473
+      1729792473, 
+      1159289407, 
+      102527513, 
+      102531131
     ],
-    "wof:lastmodified": 1614960230,
+    "wof:lastmodified": 1614960756,
     "wof:name": "DL1202 (MSP-SFO)",
     "wof:parent_id": 1729792473,
     "wof:placetype": "event",

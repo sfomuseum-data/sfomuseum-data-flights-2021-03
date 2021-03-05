@@ -2,10 +2,12 @@
   "id": 1729860677,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-04",
+    "date:cessation_upper": "2021-03-04",
     "date:inception_lower": "2021-03-04",
     "date:inception_upper": "2021-03-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-04",
+    "edtf:cessation": "2021-03-04T22:56:17Z",
+    "edtf:inception": "2021-03-04T09:51:16Z",
     "flysfo:actual_timestamp": 1614902400,
     "flysfo:airline": "NH",
     "flysfo:date": "2021-03-04",
@@ -48,6 +50,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "150204094"
+    },
     "wof:country": "US",
     "wof:created": 1614960147,
     "wof:geomhash": "99c2bdbe61e95eb26a51b43b0c172358",
@@ -84,7 +89,7 @@
       1159283875, 
       1729792659
     ],
-    "wof:lastmodified": 1614960147,
+    "wof:lastmodified": 1614960759,
     "wof:name": "NH108 (HND-SFO)",
     "wof:parent_id": 1729792659,
     "wof:placetype": "event",
