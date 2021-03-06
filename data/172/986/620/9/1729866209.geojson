@@ -2,10 +2,12 @@
   "id": 1729866209,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-05",
+    "date:cessation_upper": "2021-03-05",
     "date:inception_lower": "2021-03-05",
     "date:inception_upper": "2021-03-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-05",
+    "edtf:cessation": "2021-03-05T20:12:00Z",
+    "edtf:inception": "2021-03-05T18:47:00Z",
     "flysfo:actual_timestamp": 1614988800,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-03-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS1",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61492757992414,
     "lbl:longitude": -122.3823520394826,
+    "sfomuseum:aircraft_id": 1528104583,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N131DU",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +57,10 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "150227405",
+      "swim:gufi": "KO64205600"
+    },
     "wof:country": "US",
     "wof:created": 1615046953,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1729866209,
     "wof:involves": [
-      102527363, 
       102527513, 
       1159284261, 
-      1729792473
+      1729792473, 
+      1528104583, 
+      102527363
     ],
-    "wof:lastmodified": 1615046953,
+    "wof:lastmodified": 1615047139,
     "wof:name": "DL1303 (SFO-SLC)",
     "wof:parent_id": 1729792473,
     "wof:placetype": "event",
