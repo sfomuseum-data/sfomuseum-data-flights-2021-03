@@ -2,10 +2,12 @@
   "id": 1729869423,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-06",
+    "date:cessation_upper": "2021-03-06",
     "date:inception_lower": "2021-03-06",
     "date:inception_upper": "2021-03-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-06",
+    "edtf:cessation": "2021-03-06T16:19:54Z",
+    "edtf:inception": "2021-03-06T08:10:00Z",
     "flysfo:actual_timestamp": 1615047960,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.686867,
     "geom:longitude": 9.012156999999995,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102541685,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +55,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "150276057"
+    },
     "wof:country": "US",
     "wof:created": 1615133142,
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
@@ -79,12 +89,13 @@
     ],
     "wof:id": 1729869423,
     "wof:involves": [
+      1159293215, 
       102527513, 
       102541685, 
       1159285413, 
       1729792655
     ],
-    "wof:lastmodified": 1615133142,
+    "wof:lastmodified": 1615133535,
     "wof:name": "UA3019 (NRT-SFO)",
     "wof:parent_id": 1729792655,
     "wof:placetype": "event",

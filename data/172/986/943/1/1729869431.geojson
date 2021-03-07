@@ -2,10 +2,12 @@
   "id": 1729869431,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-06",
+    "date:cessation_upper": "2021-03-06",
     "date:inception_lower": "2021-03-06",
     "date:inception_upper": "2021-03-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-06",
+    "edtf:cessation": "2021-03-06T09:14:47-08:00",
+    "edtf:inception": "2021-03-06T23:31:00Z",
     "flysfo:actual_timestamp": 1615079940,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N808UA",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "150322287",
+      "swim:gufi": "KA76240700"
+    },
     "wof:country": "US",
     "wof:created": 1615133144,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1729869431,
     "wof:involves": [
+      1159289407, 
       102527513, 
       102526751, 
       1159285413, 
       1729792535
     ],
-    "wof:lastmodified": 1615133144,
+    "wof:lastmodified": 1615133536,
     "wof:name": "UA395 (PHX-SFO)",
     "wof:parent_id": 1729792535,
     "wof:placetype": "event",

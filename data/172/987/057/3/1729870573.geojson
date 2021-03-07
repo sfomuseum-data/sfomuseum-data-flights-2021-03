@@ -2,10 +2,12 @@
   "id": 1729870573,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-07",
+    "date:cessation_upper": "2021-03-07",
     "date:inception_lower": "2021-03-06",
     "date:inception_upper": "2021-03-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-06",
+    "edtf:cessation": "2021-03-07T00:24:00Z",
+    "edtf:inception": "2021-03-06T03:14:04-08:00",
     "flysfo:actual_timestamp": 1615057140,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N69804",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "150302739",
+      "swim:gufi": "KO56191700"
+    },
     "wof:country": "US",
     "wof:created": 1615133455,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -82,9 +96,10 @@
       102530741, 
       102527513, 
       1159285413, 
-      1729792565
+      1729792565, 
+      1377564285
     ],
-    "wof:lastmodified": 1615133455,
+    "wof:lastmodified": 1615133534,
     "wof:name": "UA1865 (SFO-BOS)",
     "wof:parent_id": 1729792565,
     "wof:placetype": "event",
