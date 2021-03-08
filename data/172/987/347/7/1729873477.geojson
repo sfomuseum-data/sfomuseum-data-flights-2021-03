@@ -2,10 +2,12 @@
   "id": 1729873477,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-07",
+    "date:cessation_upper": "2021-03-07",
     "date:inception_lower": "2021-03-07",
     "date:inception_upper": "2021-03-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-07",
+    "edtf:cessation": "2021-03-07T03:06:48-08:00",
+    "edtf:inception": "2021-03-07T18:16:00Z",
     "flysfo:actual_timestamp": 1615161600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17133",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -79,12 +88,13 @@
     ],
     "wof:id": 1729873477,
     "wof:involves": [
-      102527513, 
       102533795, 
       1159285413, 
-      1729792537
+      1729792537, 
+      1159289939, 
+      102527513
     ],
-    "wof:lastmodified": 1615219593,
+    "wof:lastmodified": 1615220002,
     "wof:name": "UA2625 (LAX-SFO)",
     "wof:parent_id": 1729792537,
     "wof:placetype": "event",

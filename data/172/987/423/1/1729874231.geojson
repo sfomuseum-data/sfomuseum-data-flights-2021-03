@@ -2,10 +2,12 @@
   "id": 1729874231,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-08",
+    "date:cessation_upper": "2021-03-08",
     "date:inception_lower": "2021-03-07",
     "date:inception_upper": "2021-03-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-07",
+    "edtf:cessation": "2021-03-08T02:39:00Z",
+    "edtf:inception": "2021-03-07T05:34:48-08:00",
     "flysfo:actual_timestamp": 1615152180,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-03-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N702TW",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -79,12 +88,13 @@
     ],
     "wof:id": 1729874231,
     "wof:involves": [
+      1729792465, 
+      1159289939, 
       102534365, 
       102527513, 
-      1159284261, 
-      1729792465
+      1159284261
     ],
-    "wof:lastmodified": 1615219806,
+    "wof:lastmodified": 1615220006,
     "wof:name": "DL301 (SFO-JFK)",
     "wof:parent_id": 1729792465,
     "wof:placetype": "event",

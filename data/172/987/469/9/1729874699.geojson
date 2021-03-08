@@ -2,10 +2,12 @@
   "id": 1729874699,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-07",
+    "date:cessation_upper": "2021-03-07",
     "date:inception_lower": "2021-03-07",
     "date:inception_upper": "2021-03-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-07",
+    "edtf:cessation": "2021-03-07T20:49:00Z",
+    "edtf:inception": "2021-03-07T18:47:00Z",
     "flysfo:actual_timestamp": 1615161600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,19 +38,26 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "150384124"
+    },
     "wof:country": "US",
     "wof:created": 1615219932,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
     "wof:hierarchy": [],
     "wof:id": 1729874699,
     "wof:involves": [
-      102531189, 
       102527513, 
       1159285413, 
-      -1
+      1159289945, 
+      102531189
     ],
-    "wof:lastmodified": 1615219932,
+    "wof:lastmodified": 1615220008,
     "wof:name": "UA2739 (SFO-DEN)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1729874269,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-08",
+    "date:cessation_upper": "2021-03-08",
     "date:inception_lower": "2021-03-07",
     "date:inception_upper": "2021-03-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-07",
+    "edtf:cessation": "2021-03-08T00:17:08Z",
+    "edtf:inception": "2021-03-07T05:06:03-08:00",
     "flysfo:actual_timestamp": 1615148700,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-03-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102525635,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N396DA",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -79,12 +88,13 @@
     ],
     "wof:id": 1729874269,
     "wof:involves": [
+      1159289871, 
       102525635, 
       102527513, 
       1159284261, 
       1729792419
     ],
-    "wof:lastmodified": 1615219816,
+    "wof:lastmodified": 1615220007,
     "wof:name": "DL773 (SFO-DTW)",
     "wof:parent_id": 1729792419,
     "wof:placetype": "event",

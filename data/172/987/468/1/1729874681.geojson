@@ -2,10 +2,12 @@
   "id": 1729874681,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-07",
+    "date:cessation_upper": "2021-03-07",
     "date:inception_lower": "2021-03-07",
     "date:inception_upper": "2021-03-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-07",
+    "edtf:cessation": "2021-03-07T23:13:00Z",
+    "edtf:inception": "2021-03-07T05:56:54-08:00",
     "flysfo:actual_timestamp": 1615153620,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N35236",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -82,9 +91,10 @@
       102533795, 
       102527513, 
       1159285413, 
-      1729792565
+      1729792565, 
+      1159289871
     ],
-    "wof:lastmodified": 1615219928,
+    "wof:lastmodified": 1615220008,
     "wof:name": "UA2114 (SFO-LAX)",
     "wof:parent_id": 1729792565,
     "wof:placetype": "event",
