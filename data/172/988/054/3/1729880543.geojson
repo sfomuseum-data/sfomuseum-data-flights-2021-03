@@ -2,10 +2,12 @@
   "id": 1729880543,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-09",
+    "date:cessation_upper": "2021-03-09",
     "date:inception_lower": "2021-03-09",
     "date:inception_upper": "2021-03-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-09",
+    "edtf:cessation": "2021-03-09T08:04:54-08:00",
+    "edtf:inception": "2021-03-09T22:26:00Z",
     "flysfo:actual_timestamp": 1615334400,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-03-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS1",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1528104583,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527363,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N123DQ",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "150506782",
+      "swim:gufi": "KU77165300"
+    },
     "wof:country": "US",
     "wof:created": 1615392196,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1729880543,
     "wof:involves": [
+      1729792469, 
+      1528104583, 
       102527513, 
       102527363, 
-      1159284261, 
-      1729792469
+      1159284261
     ],
-    "wof:lastmodified": 1615392196,
+    "wof:lastmodified": 1615392574,
     "wof:name": "DL1352 (SLC-SFO)",
     "wof:parent_id": 1729792469,
     "wof:placetype": "event",
