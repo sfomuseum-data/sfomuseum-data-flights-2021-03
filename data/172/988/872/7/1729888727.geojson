@@ -2,10 +2,12 @@
   "id": 1729888727,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-11",
+    "date:cessation_upper": "2021-03-11",
     "date:inception_lower": "2021-03-11",
     "date:inception_upper": "2021-03-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-11",
+    "edtf:cessation": "2021-03-11T22:27:00Z",
+    "edtf:inception": "2021-03-11T21:06:00Z",
     "flysfo:actual_timestamp": 1615495800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N27205",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,9 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "150637301"
+    },
     "wof:country": "US",
     "wof:created": 1615565513,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1729888727,
     "wof:involves": [
+      1729792531, 
+      1159289871, 
       102528997, 
       102527513, 
-      1159285413, 
-      1729792531
+      1159285413
     ],
-    "wof:lastmodified": 1615565513,
+    "wof:lastmodified": 1615565593,
     "wof:name": "UA2323 (SFO-SAN)",
     "wof:parent_id": 1729792531,
     "wof:placetype": "event",

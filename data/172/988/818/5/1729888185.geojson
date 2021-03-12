@@ -2,10 +2,12 @@
   "id": 1729888185,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-11",
+    "date:cessation_upper": "2021-03-11",
     "date:inception_lower": "2021-03-11",
     "date:inception_upper": "2021-03-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-11",
+    "edtf:cessation": "2021-03-11T22:02:00Z",
+    "edtf:inception": "2021-03-11T17:29:00Z",
     "flysfo:actual_timestamp": 1615482600,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-03-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N483AS",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,9 @@
       1729792389, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "150619688"
+    },
     "wof:country": "US",
     "wof:created": 1615565365,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1729888185,
     "wof:involves": [
+      1377564285, 
       102530049, 
       102527513, 
       1159283813, 
       1729792417
     ],
-    "wof:lastmodified": 1615565365,
+    "wof:lastmodified": 1615565592,
     "wof:name": "AS266 (SFO-EWR)",
     "wof:parent_id": 1729792417,
     "wof:placetype": "event",

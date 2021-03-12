@@ -2,10 +2,12 @@
   "id": 1729887385,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-11",
+    "date:cessation_upper": "2021-03-11",
     "date:inception_lower": "2021-03-11",
     "date:inception_upper": "2021-03-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-11",
+    "edtf:cessation": "2021-03-11T05:14:03-08:00",
+    "edtf:inception": "2021-03-11T05:33:18Z",
     "flysfo:actual_timestamp": 1615497600,
     "flysfo:airline": "QR",
     "flysfo:date": "2021-03-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 18.808995,
     "geom:longitude": -61.1854715,
     "iata:airline": "QR",
+    "icao:aircraft": "A359",
     "icao:airline": "QTR",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159286153,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 1729749565,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "A7AMJ",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +56,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "150590082"
+    },
     "wof:country": "US",
     "wof:created": 1615565129,
     "wof:geomhash": "39d9eba3dc111bfc07b45f612540f4b0",
@@ -79,12 +90,13 @@
     ],
     "wof:id": 1729887385,
     "wof:involves": [
+      1377564293, 
       102527513, 
       1729749565, 
       1159286153, 
       1729792595
     ],
-    "wof:lastmodified": 1615565129,
+    "wof:lastmodified": 1615565589,
     "wof:name": "QR737 (DOH-SFO)",
     "wof:parent_id": 1729792595,
     "wof:placetype": "event",
