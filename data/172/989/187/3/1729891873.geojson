@@ -2,10 +2,12 @@
   "id": 1729891873,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-03-12",
-    "date:inception_upper": "2021-03-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-12",
+    "date:cessation_lower": "2021-03-12",
+    "date:cessation_upper": "2021-03-12",
+    "date:inception_lower": "2021-03-13",
+    "date:inception_upper": "2021-03-13",
+    "edtf:cessation": "2021-03-12T09:08:56-08:00",
+    "edtf:inception": "2021-03-13T00:13:00Z",
     "flysfo:actual_timestamp": 1615597860,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N414UA",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "150649462",
+      "swim:gufi": "KL74205602"
+    },
     "wof:country": "US",
     "wof:created": 1615651621,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -82,9 +96,10 @@
       102527513, 
       102533795, 
       1159285413, 
-      1729792545
+      1729792545, 
+      1159292085
     ],
-    "wof:lastmodified": 1615651621,
+    "wof:lastmodified": 1615651978,
     "wof:name": "UA689 (LAX-SFO)",
     "wof:parent_id": 1729792545,
     "wof:placetype": "event",
