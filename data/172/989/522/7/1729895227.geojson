@@ -2,10 +2,12 @@
   "id": 1729895227,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-13",
+    "date:cessation_upper": "2021-03-13",
     "date:inception_lower": "2021-03-13",
     "date:inception_upper": "2021-03-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-13",
+    "edtf:cessation": "2021-03-13T08:49:50-08:00",
+    "edtf:inception": "2021-03-13T22:54:00Z",
     "flysfo:actual_timestamp": 1615683060,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555307,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N445UA",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "150791075",
+      "swim:gufi": "KS79408700"
+    },
     "wof:country": "US",
     "wof:created": 1615737923,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1729895227,
     "wof:involves": [
+      1159292085, 
       102527513, 
       102555307, 
       1159285413, 
       1729792561
     ],
-    "wof:lastmodified": 1615737923,
+    "wof:lastmodified": 1615738296,
     "wof:name": "UA1261 (YVR-SFO)",
     "wof:parent_id": 1729792561,
     "wof:placetype": "event",
