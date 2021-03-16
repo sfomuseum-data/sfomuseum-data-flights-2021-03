@@ -2,10 +2,12 @@
   "id": 1729902107,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-15",
+    "date:cessation_upper": "2021-03-15",
     "date:inception_lower": "2021-03-15",
     "date:inception_upper": "2021-03-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-15",
+    "edtf:cessation": "2021-03-15T04:43:42-07:00",
+    "edtf:inception": "2021-03-15T10:02:54Z",
     "flysfo:actual_timestamp": 1615834320,
     "flysfo:airline": "JL",
     "flysfo:date": "2021-03-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.686867,
     "geom:longitude": 9.012156999999995,
     "iata:airline": "JL",
+    "icao:aircraft": "B789",
     "icao:airline": "JAL",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159284563,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102541685,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "JA873J",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -79,12 +89,13 @@
     ],
     "wof:id": 1729902107,
     "wof:involves": [
-      102527513, 
-      102541685, 
       1159284563, 
-      1729792595
+      1729792595, 
+      1159293215, 
+      102527513, 
+      102541685
     ],
-    "wof:lastmodified": 1615910719,
+    "wof:lastmodified": 1615911174,
     "wof:name": "JL58 (NRT-SFO)",
     "wof:parent_id": 1729792595,
     "wof:placetype": "event",

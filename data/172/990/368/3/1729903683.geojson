@@ -2,10 +2,12 @@
   "id": 1729903683,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-16",
+    "date:cessation_upper": "2021-03-16",
     "date:inception_lower": "2021-03-15",
     "date:inception_upper": "2021-03-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-15",
+    "edtf:cessation": "2021-03-16T11:13:00Z",
+    "edtf:inception": "2021-03-15T16:35:44-07:00",
     "flysfo:actual_timestamp": 1615875540,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2251U",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO15592300"
+    },
     "wof:country": "US",
     "wof:created": 1615911146,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1729903683,
     "wof:involves": [
-      102530049, 
-      102527513, 
       1159285413, 
-      1729792651
+      1729792651, 
+      1159289993, 
+      102530049, 
+      102527513
     ],
-    "wof:lastmodified": 1615911146,
+    "wof:lastmodified": 1615911180,
     "wof:name": "UA705 (SFO-EWR)",
     "wof:parent_id": 1729792651,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1729902385,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-15",
+    "date:cessation_upper": "2021-03-15",
     "date:inception_lower": "2021-03-15",
     "date:inception_upper": "2021-03-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-15",
+    "edtf:cessation": "2021-03-15T14:42:00Z",
+    "edtf:inception": "2021-03-15T10:05:00Z",
     "flysfo:actual_timestamp": 1615819620,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617906,
     "lbl:longitude": -122.390944,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -48,6 +52,10 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "150937141",
+      "swim:gufi": "KL46394200"
+    },
     "wof:country": "US",
     "wof:created": 1615910795,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -79,12 +87,13 @@
     ],
     "wof:id": 1729902385,
     "wof:involves": [
+      1729792657, 
+      1159289985, 
       102527513, 
       102533997, 
-      1159285413, 
-      1729792657
+      1159285413
     ],
-    "wof:lastmodified": 1615910795,
+    "wof:lastmodified": 1615911176,
     "wof:name": "UA383 (HNL-SFO)",
     "wof:parent_id": 1729792657,
     "wof:placetype": "event",
