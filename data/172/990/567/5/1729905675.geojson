@@ -2,10 +2,12 @@
   "id": 1729905675,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-16",
+    "date:cessation_upper": "2021-03-16",
     "date:inception_lower": "2021-03-16",
     "date:inception_upper": "2021-03-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-16",
+    "edtf:cessation": "2021-03-16T04:45:33-07:00",
+    "edtf:inception": "2021-03-16T13:23:00Z",
     "flysfo:actual_timestamp": 1615920600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N26960",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "150935903",
+      "swim:gufi": "KN41423300"
+    },
     "wof:country": "US",
     "wof:created": 1615997205,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -82,9 +96,10 @@
       102527513, 
       102530049, 
       1159285413, 
-      1729792549
+      1729792549, 
+      1159293215
     ],
-    "wof:lastmodified": 1615997205,
+    "wof:lastmodified": 1615997537,
     "wof:name": "UA302 (EWR-SFO)",
     "wof:parent_id": 1729792549,
     "wof:placetype": "event",
