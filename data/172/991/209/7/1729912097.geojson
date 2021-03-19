@@ -2,10 +2,12 @@
   "id": 1729912097,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-03-18",
-    "date:inception_upper": "2021-03-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-18",
+    "date:cessation_lower": "2021-03-19",
+    "date:cessation_upper": "2021-03-19",
+    "date:inception_lower": "2021-03-19",
+    "date:inception_upper": "2021-03-19",
+    "edtf:cessation": "2021-03-19T03:22:00Z",
+    "edtf:inception": "2021-03-19T02:21:00Z",
     "flysfo:actual_timestamp": 1616119200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534161,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +56,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151048812",
+      "swim:gufi": "KO80331500"
+    },
     "wof:country": "US",
     "wof:created": 1616170301,
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1729912097,
     "wof:involves": [
+      1159289407, 
       102534161, 
       102527513, 
       1159285413, 
       1729792545
     ],
-    "wof:lastmodified": 1616170301,
+    "wof:lastmodified": 1616170389,
     "wof:name": "UA1522 (SFO-SNA)",
     "wof:parent_id": 1729792545,
     "wof:placetype": "event",
