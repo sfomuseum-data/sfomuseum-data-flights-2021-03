@@ -2,10 +2,12 @@
   "id": 1729919193,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-21",
+    "date:cessation_upper": "2021-03-21",
     "date:inception_lower": "2021-03-21",
     "date:inception_upper": "2021-03-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-21",
+    "edtf:cessation": "2021-03-21T16:14:00Z",
+    "edtf:inception": "2021-03-21T15:16:00Z",
     "flysfo:actual_timestamp": 1616343420,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-03-21",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +54,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151282378"
+    },
     "wof:country": "US",
     "wof:created": 1616429175,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -84,7 +93,7 @@
       1159285591, 
       1729792445
     ],
-    "wof:lastmodified": 1616429175,
+    "wof:lastmodified": 1616429631,
     "wof:name": "WN265 (LAX-SFO)",
     "wof:parent_id": 1729792445,
     "wof:placetype": "event",

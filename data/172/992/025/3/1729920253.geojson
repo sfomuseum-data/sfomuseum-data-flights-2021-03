@@ -2,10 +2,12 @@
   "id": 1729920253,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-22",
+    "date:cessation_upper": "2021-03-22",
     "date:inception_lower": "2021-03-21",
     "date:inception_upper": "2021-03-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-21",
+    "edtf:cessation": "2021-03-22T01:33:54Z",
+    "edtf:inception": "2021-03-21T23:40:00Z",
     "flysfo:actual_timestamp": 1616368740,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-03-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "F9",
+    "icao:aircraft": "A320",
     "icao:airline": "FFT",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +57,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151320924"
+    },
     "wof:country": "US",
     "wof:created": 1616429449,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1729920253,
     "wof:involves": [
-      102526751, 
       102527513, 
       1159284401, 
-      1729792601
+      1729792601, 
+      1159292085, 
+      102526751
     ],
-    "wof:lastmodified": 1616429449,
+    "wof:lastmodified": 1616429626,
     "wof:name": "F92790 (SFO-PHX)",
     "wof:parent_id": 1729792601,
     "wof:placetype": "event",
