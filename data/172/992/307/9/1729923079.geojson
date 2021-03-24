@@ -2,10 +2,12 @@
   "id": 1729923079,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-23",
+    "date:cessation_upper": "2021-03-23",
     "date:inception_lower": "2021-03-23",
     "date:inception_upper": "2021-03-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-23",
+    "edtf:cessation": "2021-03-23T13:34:33-07:00",
+    "edtf:inception": "2021-03-23T22:52:00Z",
     "flysfo:actual_timestamp": 1616540400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532929,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N77539",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151449891",
+      "swim:gufi": "KO07167400"
+    },
     "wof:country": "US",
     "wof:created": 1616601987,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
@@ -82,9 +96,10 @@
       102527513, 
       102532929, 
       1159285413, 
-      1729792545
+      1729792545, 
+      1159289871
     ],
-    "wof:lastmodified": 1616601987,
+    "wof:lastmodified": 1616602326,
     "wof:name": "UA556 (OGG-SFO)",
     "wof:parent_id": 1729792545,
     "wof:placetype": "event",
