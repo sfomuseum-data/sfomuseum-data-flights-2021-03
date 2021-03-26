@@ -2,10 +2,12 @@
   "id": 1729928869,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-26",
+    "date:cessation_upper": "2021-03-26",
     "date:inception_lower": "2021-03-25",
     "date:inception_upper": "2021-03-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-25",
+    "edtf:cessation": "2021-03-26T08:59:26Z",
+    "edtf:inception": "2021-03-25T22:25:00Z",
     "flysfo:actual_timestamp": 1616710320,
     "flysfo:airline": "JL",
     "flysfo:date": "2021-03-25",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +53,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151584826"
+    },
     "wof:country": "US",
     "wof:created": 1616775125,
     "wof:geomhash": "64252c90f74b3e5d6a354a131140ee76",
@@ -84,7 +92,7 @@
       1159284563, 
       1729792597
     ],
-    "wof:lastmodified": 1616775125,
+    "wof:lastmodified": 1616775288,
     "wof:name": "JL1 (SFO-HND)",
     "wof:parent_id": 1729792597,
     "wof:placetype": "event",

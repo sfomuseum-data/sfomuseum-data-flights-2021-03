@@ -2,10 +2,12 @@
   "id": 1729929229,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-25",
+    "date:cessation_upper": "2021-03-25",
     "date:inception_lower": "2021-03-25",
     "date:inception_upper": "2021-03-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-25",
+    "edtf:cessation": "2021-03-25T21:30:00Z",
+    "edtf:inception": "2021-03-25T20:25:00Z",
     "flysfo:actual_timestamp": 1616713200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +55,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151576013",
+      "swim:gufi": "KO62097500"
+    },
     "wof:country": "US",
     "wof:created": 1616775222,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -79,12 +90,13 @@
     ],
     "wof:id": 1729929229,
     "wof:involves": [
+      1159289407, 
       102527209, 
       102527513, 
       1159285413, 
       1729792545
     ],
-    "wof:lastmodified": 1616775222,
+    "wof:lastmodified": 1616775289,
     "wof:name": "UA537 (SFO-LAS)",
     "wof:parent_id": 1729792545,
     "wof:placetype": "event",

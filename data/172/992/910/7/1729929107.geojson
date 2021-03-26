@@ -2,10 +2,12 @@
   "id": 1729929107,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2021-03-25",
     "date:inception_upper": "2021-03-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-25",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2021-03-25T01:43:32-07:00",
     "flysfo:actual_timestamp": 1616685840,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N826UA",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -82,9 +91,10 @@
       102527209, 
       102527513, 
       1159285413, 
-      1729792563
+      1729792563, 
+      1159289407
     ],
-    "wof:lastmodified": 1616775188,
+    "wof:lastmodified": 1616775289,
     "wof:name": "UA1126 (SFO-LAS)",
     "wof:parent_id": 1729792563,
     "wof:placetype": "event",

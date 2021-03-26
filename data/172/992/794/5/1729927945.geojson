@@ -2,10 +2,12 @@
   "id": 1729927945,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-26",
+    "date:cessation_upper": "2021-03-26",
     "date:inception_lower": "2021-03-25",
     "date:inception_upper": "2021-03-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-25",
+    "edtf:cessation": "2021-03-26T00:11:12Z",
+    "edtf:inception": "2021-03-25T22:34:00Z",
     "flysfo:actual_timestamp": 1616718360,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-25",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +54,9 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151585115"
+    },
     "wof:country": "US",
     "wof:created": 1616774881,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -84,7 +93,7 @@
       1159285413, 
       1729792565
     ],
-    "wof:lastmodified": 1616774881,
+    "wof:lastmodified": 1616775287,
     "wof:name": "UA395 (PHX-SFO)",
     "wof:parent_id": 1729792565,
     "wof:placetype": "event",
