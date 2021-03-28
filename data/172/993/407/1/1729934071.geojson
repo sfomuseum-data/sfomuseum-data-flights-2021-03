@@ -2,10 +2,12 @@
   "id": 1729934071,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-27",
+    "date:cessation_upper": "2021-03-27",
     "date:inception_lower": "2021-03-27",
     "date:inception_upper": "2021-03-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-27",
+    "edtf:cessation": "2021-03-27T16:48:11Z",
+    "edtf:inception": "2021-03-27T13:32:00Z",
     "flysfo:actual_timestamp": 1616850360,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-03-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102531131,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N352NB",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,9 @@
       1729792389, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151685677"
+    },
     "wof:country": "US",
     "wof:created": 1616947832,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1729934071,
     "wof:involves": [
+      1159289407, 
       102531131, 
       102527513, 
       1159284261, 
       1729792421
     ],
-    "wof:lastmodified": 1616947832,
+    "wof:lastmodified": 1616948061,
     "wof:name": "DL1144 (SFO-MSP)",
     "wof:parent_id": 1729792421,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1729932887,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-27",
+    "date:cessation_upper": "2021-03-27",
     "date:inception_lower": "2021-03-27",
     "date:inception_upper": "2021-03-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-27",
+    "edtf:cessation": "2021-03-27T15:17:56Z",
+    "edtf:inception": "2021-03-27T14:25:00Z",
     "flysfo:actual_timestamp": 1616886000,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-03-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,19 +38,26 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "151690092"
+    },
     "wof:country": "US",
     "wof:created": 1616947511,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
     "wof:hierarchy": [],
     "wof:id": 1729932887,
     "wof:involves": [
+      1159289939, 
       102527513, 
       102533795, 
-      1159284261, 
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1616947511,
+    "wof:lastmodified": 1616948059,
     "wof:name": "DL8840 (LAX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

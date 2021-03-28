@@ -2,10 +2,12 @@
   "id": 1729934015,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-03-27",
-    "date:inception_upper": "2021-03-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-27",
+    "date:cessation_lower": "2021-03-28",
+    "date:cessation_upper": "2021-03-28",
+    "date:inception_lower": "2021-03-28",
+    "date:inception_upper": "2021-03-28",
+    "edtf:cessation": "2021-03-28T02:07:00Z",
+    "edtf:inception": "2021-03-28T00:25:00Z",
     "flysfo:actual_timestamp": 1616889840,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-03-27",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +54,9 @@
       1729792389, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151665007"
+    },
     "wof:country": "US",
     "wof:created": 1616947818,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -84,7 +93,7 @@
       1159283813, 
       1729792399
     ],
-    "wof:lastmodified": 1616947818,
+    "wof:lastmodified": 1616948061,
     "wof:name": "AS411 (SFO-SEA)",
     "wof:parent_id": 1729792399,
     "wof:placetype": "event",

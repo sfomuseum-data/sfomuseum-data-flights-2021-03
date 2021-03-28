@@ -2,10 +2,12 @@
   "id": 1729934597,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-27",
+    "date:cessation_upper": "2021-03-27",
     "date:inception_lower": "2021-03-27",
     "date:inception_upper": "2021-03-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-27",
+    "edtf:cessation": "2021-03-27T20:35:00Z",
+    "edtf:inception": "2021-03-27T18:19:00Z",
     "flysfo:actual_timestamp": 1616868180,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +56,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151710345",
+      "swim:gufi": "KO59612700"
+    },
     "wof:country": "US",
     "wof:created": 1616947966,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1729934597,
     "wof:involves": [
-      102555307, 
-      102527513, 
       1159285413, 
-      1729792507
+      1729792507, 
+      1159289407, 
+      102555307, 
+      102527513
     ],
-    "wof:lastmodified": 1616947966,
+    "wof:lastmodified": 1616948062,
     "wof:name": "UA2051 (SFO-YVR)",
     "wof:parent_id": 1729792507,
     "wof:placetype": "event",
