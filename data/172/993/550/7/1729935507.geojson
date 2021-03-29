@@ -2,10 +2,12 @@
   "id": 1729935507,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-29",
+    "date:cessation_upper": "2021-03-29",
     "date:inception_lower": "2021-03-28",
     "date:inception_upper": "2021-03-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-28",
+    "edtf:cessation": "2021-03-29T04:43:00Z",
+    "edtf:inception": "2021-03-28T22:43:00Z",
     "flysfo:actual_timestamp": 1616972400,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-03-28",
@@ -34,7 +36,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "151834791"
+    },
     "wof:country": "US",
     "wof:created": 1617033907,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -46,7 +55,7 @@
       1159283813, 
       -1
     ],
-    "wof:lastmodified": 1617033907,
+    "wof:lastmodified": 1617034512,
     "wof:name": "AS9820 (JFK-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

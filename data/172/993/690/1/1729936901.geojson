@@ -2,10 +2,12 @@
   "id": 1729936901,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-29",
+    "date:cessation_upper": "2021-03-29",
     "date:inception_lower": "2021-03-28",
     "date:inception_upper": "2021-03-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-28",
+    "edtf:cessation": "2021-03-29T03:13:46Z",
+    "edtf:inception": "2021-03-28T21:57:00Z",
     "flysfo:actual_timestamp": 1616972400,
     "flysfo:airline": "AV",
     "flysfo:date": "2021-03-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 25.5313695,
     "geom:longitude": -105.7147545,
     "iata:airline": "AV",
+    "icao:aircraft": "A320",
     "icao:airline": "AVA",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283957,
     "sfomuseum:arrival_id": 102556081,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +55,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151791226"
+    },
     "wof:country": "US",
     "wof:created": 1617034276,
     "wof:geomhash": "5e2e6299deb3a59dda4e65fa5b8c6ddb",
@@ -79,12 +89,13 @@
     ],
     "wof:id": 1729936901,
     "wof:involves": [
+      1159292085, 
       102556081, 
       102527513, 
       1159283957, 
       1729792601
     ],
-    "wof:lastmodified": 1617034276,
+    "wof:lastmodified": 1617034518,
     "wof:name": "AV563 (SFO-SAL)",
     "wof:parent_id": 1729792601,
     "wof:placetype": "event",

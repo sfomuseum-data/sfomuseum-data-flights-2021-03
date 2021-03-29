@@ -2,10 +2,12 @@
   "id": 1729936013,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-28",
+    "date:cessation_upper": "2021-03-28",
     "date:inception_lower": "2021-03-28",
     "date:inception_upper": "2021-03-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-28",
+    "edtf:cessation": "2021-03-28T02:46:44-07:00",
+    "edtf:inception": "2021-03-28T16:09:00Z",
     "flysfo:actual_timestamp": 1616972400,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-03-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61266515122482,
     "lbl:longitude": -122.38444006596885,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N7815L",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151762442"
+    },
     "wof:country": "US",
     "wof:created": 1617034047,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1729936013,
     "wof:involves": [
+      1159289869, 
       102527513, 
       102533795, 
       1159285591, 
       1729792445
     ],
-    "wof:lastmodified": 1617034047,
+    "wof:lastmodified": 1617034516,
     "wof:name": "WN265 (LAX-SFO)",
     "wof:parent_id": 1729792445,
     "wof:placetype": "event",

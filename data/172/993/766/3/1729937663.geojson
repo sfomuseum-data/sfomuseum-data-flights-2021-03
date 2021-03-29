@@ -2,10 +2,12 @@
   "id": 1729937663,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-28",
+    "date:cessation_upper": "2021-03-28",
     "date:inception_lower": "2021-03-28",
     "date:inception_upper": "2021-03-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-28",
+    "edtf:cessation": "2021-03-28T17:50:34Z",
+    "edtf:inception": "2021-03-28T00:11:17-07:00",
     "flysfo:actual_timestamp": 1616972400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N75851",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151757990",
+      "swim:gufi": "KO42994100"
+    },
     "wof:country": "US",
     "wof:created": 1617034471,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -82,9 +96,10 @@
       102533631, 
       102527513, 
       1159285413, 
-      1729792525
+      1729792525, 
+      1159289945
     ],
-    "wof:lastmodified": 1617034471,
+    "wof:lastmodified": 1617034520,
     "wof:name": "UA721 (SFO-ORD)",
     "wof:parent_id": 1729792525,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1729936187,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-29",
+    "date:cessation_upper": "2021-03-29",
     "date:inception_lower": "2021-03-28",
     "date:inception_upper": "2021-03-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-28",
+    "edtf:cessation": "2021-03-29T03:54:13Z",
+    "edtf:inception": "2021-03-28T22:45:00Z",
     "flysfo:actual_timestamp": 1616991600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-03-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B788",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +56,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151796020",
+      "swim:gufi": "KN72994100"
+    },
     "wof:country": "US",
     "wof:created": 1617034094,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1729936187,
     "wof:involves": [
-      102527513, 
-      102530049, 
       1159285413, 
-      1729792537
+      1729792537, 
+      1159289995, 
+      102527513, 
+      102530049
     ],
-    "wof:lastmodified": 1617034094,
+    "wof:lastmodified": 1617034517,
     "wof:name": "UA297 (EWR-SFO)",
     "wof:parent_id": 1729792537,
     "wof:placetype": "event",

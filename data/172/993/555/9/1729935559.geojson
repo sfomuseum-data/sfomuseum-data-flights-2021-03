@@ -2,10 +2,12 @@
   "id": 1729935559,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-29",
+    "date:cessation_upper": "2021-03-29",
     "date:inception_lower": "2021-03-28",
     "date:inception_upper": "2021-03-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-28",
+    "edtf:cessation": "2021-03-29T00:24:07Z",
+    "edtf:inception": "2021-03-28T13:36:00Z",
     "flysfo:actual_timestamp": 1616972400,
     "flysfo:airline": "BA",
     "flysfo:date": "2021-03-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.5440385,
     "geom:longitude": -61.410693,
     "iata:airline": "BA",
+    "icao:aircraft": "B789",
     "icao:airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159284021,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102556703,
@@ -34,19 +38,26 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "151754249"
+    },
     "wof:country": "US",
     "wof:created": 1617033921,
     "wof:geomhash": "c7bf5337358552a3a60caed0c1e9ea63",
     "wof:hierarchy": [],
     "wof:id": 1729935559,
     "wof:involves": [
+      1159293215, 
       102527513, 
       102556703, 
-      1159284021, 
-      -1
+      1159284021
     ],
-    "wof:lastmodified": 1617033921,
+    "wof:lastmodified": 1617034515,
     "wof:name": "BA287 (LHR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

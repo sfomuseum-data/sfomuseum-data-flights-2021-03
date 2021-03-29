@@ -2,10 +2,12 @@
   "id": 1729936967,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-29",
+    "date:cessation_upper": "2021-03-29",
     "date:inception_lower": "2021-03-28",
     "date:inception_upper": "2021-03-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-28",
+    "edtf:cessation": "2021-03-29T09:52:00Z",
+    "edtf:inception": "2021-03-28T16:07:48-07:00",
     "flysfo:actual_timestamp": 1616997120,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-03-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102525635,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N884DN",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +57,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO18954200"
+    },
     "wof:country": "US",
     "wof:created": 1617034294,
     "wof:geomhash": "9151bfe07cf224e1ff61a7f7b8c30671",
@@ -82,9 +94,10 @@
       102525635, 
       102527513, 
       1159284261, 
-      1729792465
+      1729792465, 
+      1377564285
     ],
-    "wof:lastmodified": 1617034294,
+    "wof:lastmodified": 1617034518,
     "wof:name": "DL550 (SFO-DTW)",
     "wof:parent_id": 1729792465,
     "wof:placetype": "event",
