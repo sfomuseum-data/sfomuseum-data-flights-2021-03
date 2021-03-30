@@ -2,10 +2,12 @@
   "id": 1729938185,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-30",
+    "date:cessation_upper": "2021-03-30",
     "date:inception_lower": "2021-03-29",
     "date:inception_upper": "2021-03-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-29",
+    "edtf:cessation": "2021-03-30T04:07:00Z",
+    "edtf:inception": "2021-03-29T23:38:00Z",
     "flysfo:actual_timestamp": 1617077280,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-03-29",
@@ -48,6 +50,9 @@
       1729792389, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151856461"
+    },
     "wof:country": "US",
     "wof:created": 1617120271,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -84,7 +89,7 @@
       1159283813, 
       1729792409
     ],
-    "wof:lastmodified": 1617120271,
+    "wof:lastmodified": 1617120932,
     "wof:name": "AS1213 (ORD-SFO)",
     "wof:parent_id": 1729792409,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1729938295,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-29",
+    "date:cessation_upper": "2021-03-29",
     "date:inception_lower": "2021-03-29",
     "date:inception_upper": "2021-03-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-29",
+    "edtf:cessation": "2021-03-29T04:31:08Z",
+    "edtf:inception": "2021-03-29T02:51:00Z",
     "flysfo:actual_timestamp": 1617058800,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-03-29",
@@ -48,6 +50,9 @@
       1729792389, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151806428"
+    },
     "wof:country": "US",
     "wof:created": 1617120304,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -84,7 +89,7 @@
       1159283813, 
       1729792403
     ],
-    "wof:lastmodified": 1617120304,
+    "wof:lastmodified": 1617120933,
     "wof:name": "AS376 (SEA-SFO)",
     "wof:parent_id": 1729792403,
     "wof:placetype": "event",
