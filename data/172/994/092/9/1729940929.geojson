@@ -2,10 +2,12 @@
   "id": 1729940929,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-30",
+    "date:cessation_upper": "2021-03-30",
     "date:inception_lower": "2021-03-30",
     "date:inception_upper": "2021-03-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-30",
+    "edtf:cessation": "2021-03-30T17:08:20Z",
+    "edtf:inception": "2021-03-30T15:56:00Z",
     "flysfo:actual_timestamp": 1617145200,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-03-30",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +53,9 @@
       1729792389, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151886782"
+    },
     "wof:country": "US",
     "wof:created": 1617206685,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -84,7 +92,7 @@
       1159283813, 
       1729792403
     ],
-    "wof:lastmodified": 1617206685,
+    "wof:lastmodified": 1617207200,
     "wof:name": "AS430 (PDX-SFO)",
     "wof:parent_id": 1729792403,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1729942295,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-30",
+    "date:cessation_upper": "2021-03-30",
     "date:inception_lower": "2021-03-30",
     "date:inception_upper": "2021-03-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-30",
+    "edtf:cessation": "2021-03-30T20:27:15Z",
+    "edtf:inception": "2021-03-30T15:53:00Z",
     "flysfo:actual_timestamp": 1617118860,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-03-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "B6",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "lbl:latitude": 37.613303509442936,
     "lbl:longitude": -122.38428398032424,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +56,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151889831"
+    },
     "wof:country": "US",
     "wof:created": 1617207068,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -79,12 +90,13 @@
     ],
     "wof:id": 1729942295,
     "wof:involves": [
+      1729792439, 
+      1159289411, 
       102534365, 
       102527513, 
-      1159284583, 
-      1729792439
+      1159284583
     ],
-    "wof:lastmodified": 1617207068,
+    "wof:lastmodified": 1617207211,
     "wof:name": "B6216 (SFO-JFK)",
     "wof:parent_id": 1729792439,
     "wof:placetype": "event",

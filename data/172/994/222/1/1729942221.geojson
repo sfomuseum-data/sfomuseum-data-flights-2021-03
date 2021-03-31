@@ -2,10 +2,12 @@
   "id": 1729942221,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-30",
+    "date:cessation_upper": "2021-03-30",
     "date:inception_lower": "2021-03-30",
     "date:inception_upper": "2021-03-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-30",
+    "edtf:cessation": "2021-03-30T18:29:32Z",
+    "edtf:inception": "2021-03-30T17:22:00Z",
     "flysfo:actual_timestamp": 1617145200,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-03-30",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +53,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151896472"
+    },
     "wof:country": "US",
     "wof:created": 1617207049,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -84,7 +92,7 @@
       1159284401, 
       1729792641
     ],
-    "wof:lastmodified": 1617207049,
+    "wof:lastmodified": 1617207211,
     "wof:name": "F92080 (SFO-LAS)",
     "wof:parent_id": 1729792641,
     "wof:placetype": "event",
