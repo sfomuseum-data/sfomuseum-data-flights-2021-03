@@ -2,10 +2,12 @@
   "id": 1729943783,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-01",
+    "date:cessation_upper": "2021-04-01",
     "date:inception_lower": "2021-03-31",
     "date:inception_upper": "2021-03-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-31",
+    "edtf:cessation": "2021-04-01T04:53:00Z",
+    "edtf:inception": "2021-03-31T22:56:00Z",
     "flysfo:actual_timestamp": 1617231600,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-03-31",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +54,9 @@
       1729792389, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151990167"
+    },
     "wof:country": "US",
     "wof:created": 1617293068,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -84,7 +93,7 @@
       1159283813, 
       1729792417
     ],
-    "wof:lastmodified": 1617293068,
+    "wof:lastmodified": 1617293592,
     "wof:name": "AS657 (JFK-SFO)",
     "wof:parent_id": 1729792417,
     "wof:placetype": "event",

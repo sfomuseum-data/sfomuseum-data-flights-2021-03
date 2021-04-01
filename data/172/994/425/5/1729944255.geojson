@@ -2,10 +2,12 @@
   "id": 1729944255,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-03-31",
+    "date:cessation_upper": "2021-03-31",
     "date:inception_lower": "2021-03-31",
     "date:inception_upper": "2021-03-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-03-31",
+    "edtf:cessation": "2021-03-31T23:58:06Z",
+    "edtf:inception": "2021-03-31T22:53:00Z",
     "flysfo:actual_timestamp": 1617235500,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-03-31",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +54,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "151991015"
+    },
     "wof:country": "US",
     "wof:created": 1617293200,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -84,7 +93,7 @@
       1159285591, 
       1729792445
     ],
-    "wof:lastmodified": 1617293200,
+    "wof:lastmodified": 1617293595,
     "wof:name": "WN546 (SAN-SFO)",
     "wof:parent_id": 1729792445,
     "wof:placetype": "event",
