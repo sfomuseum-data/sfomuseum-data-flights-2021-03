@@ -19,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1616770800,
     "flysfo:timestamp": 1616799600,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,31.067200,-97.828903,37.617990",
+    "geom:latitude": 34.342595,
+    "geom:longitude": -110.09992299999999,
     "iata:airline": "UA",
     "icao:aircraft": "B753",
     "icao:airline": "UAL",
@@ -29,17 +29,17 @@
     "lbl:longitude": -122.370943,
     "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102530435,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210326-D-UAL-2584",
     "sfomuseum:flight_number": [
-      "UAL2584", 
+      "UAL2584",
       "UA2584"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -49,15 +49,19 @@
     },
     "wof:country": "US",
     "wof:created": 1616861581,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
-    "wof:hierarchy": [],
+    "wof:geomhash": "15a978a12b2d4014160ada20fff82988",
+    "wof:hierarchy": [
+      {
+        "event_id": 1729931979
+      }
+    ],
     "wof:id": 1729931979,
     "wof:involves": [
-      1159289945, 
-      102527513, 
+      1159289945,
+      102527513,
       1159285413
     ],
-    "wof:lastmodified": 1616861673,
+    "wof:lastmodified": 1652217231,
     "wof:name": "UA2584 (SFO-GRK)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
@@ -66,10 +70,10 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    0, 
-    0, 
+    -122.370943,
+    31.0672,
+    -97.828903,
     37.61799
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-97.828903,31.0672]],"type":"MultiPoint"}
 }
