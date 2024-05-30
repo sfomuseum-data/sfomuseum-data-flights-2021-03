@@ -98,10 +98,13 @@
       1377564285,
       102527513
     ],
-    "wof:lastmodified": 1651262573,
+    "wof:lastmodified": 1717033195,
     "wof:name": "UA2349 (LIR-SFO)",
     "wof:parent_id": 1729792649,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

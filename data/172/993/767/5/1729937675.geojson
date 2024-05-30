@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210328-D-UAL-821",
     "sfomuseum:flight_number": [
-      "UAL821", 
+      "UAL821",
       "UA821"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1617034475,
     "wof:geomhash": "01999c4327be8e36df88ffd5cda77111",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729937675
+      }
+    ],
     "wof:id": 1729937675,
     "wof:involves": [
-      102536579, 
-      102527513, 
-      1159285413, 
+      102536579,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1617034475,
+    "wof:lastmodified": 1717033195,
     "wof:name": "UA821 (SFO-MEX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    19.431302, 
-    -99.080804, 
+    -122.370943,
+    19.431302,
+    -99.080804,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-99.080804,19.431302]],"type":"MultiPoint"}

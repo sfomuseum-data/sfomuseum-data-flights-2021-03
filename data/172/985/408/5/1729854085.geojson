@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102534217,
     "sfomuseum:flight_id": "20210302-A-UAL-5974",
     "sfomuseum:flight_number": [
-      "UAL5974", 
+      "UAL5974",
       "UA5974"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1614787529,
     "wof:geomhash": "8649ee81ac1d01facd07821b56f3d6b7",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729854085
+      }
+    ],
     "wof:id": 1729854085,
     "wof:involves": [
-      102527513, 
-      102534217, 
-      1159285413, 
+      102527513,
+      102534217,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1614787529,
+    "wof:lastmodified": 1717033194,
     "wof:name": "UA5974 (JAC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -110.73854, 
+    -122.370943,
+    37.61799,
+    -110.73854,
     43.6066
   ],
   "geometry": {"coordinates":[[-110.73854,43.6066],[-122.370943,37.61799]],"type":"MultiPoint"}

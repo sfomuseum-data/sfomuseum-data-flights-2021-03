@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210317-D-UAL-1362",
     "sfomuseum:flight_number": [
-      "UAL1362", 
+      "UAL1362",
       "UA1362"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1616083841,
     "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729909315
+      }
+    ],
     "wof:id": 1729909315,
     "wof:involves": [
-      102525535, 
-      102527513, 
-      1159285413, 
+      102525535,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1616083841,
+    "wof:lastmodified": 1717033195,
     "wof:name": "UA1362 (SFO-RNO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -119.772167, 
+    -122.370943,
+    37.61799,
+    -119.772167,
     39.505219
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-119.772167,39.505219]],"type":"MultiPoint"}

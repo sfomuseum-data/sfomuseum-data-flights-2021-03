@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102528479,
     "sfomuseum:flight_id": "20210304-A-UAL-2754",
     "sfomuseum:flight_number": [
-      "UAL2754", 
+      "UAL2754",
       "UA2754"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1614960365,
     "wof:geomhash": "aa693abb2ae41d4e13dc0551dd7a15ae",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729861431
+      }
+    ],
     "wof:id": 1729861431,
     "wof:involves": [
-      102527513, 
-      102528479, 
-      1159285413, 
+      102527513,
+      102528479,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1614960365,
+    "wof:lastmodified": 1717033191,
     "wof:name": "UA2754 (FTW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.817082, 
-    -97.359041, 
+    -122.370943,
+    32.817082,
+    -97.359041,
     37.61799
   ],
   "geometry": {"coordinates":[[-97.359041,32.817082],[-122.370943,37.61799]],"type":"MultiPoint"}

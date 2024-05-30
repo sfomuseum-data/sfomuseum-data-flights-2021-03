@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210315-D-SWA-1599",
     "sfomuseum:flight_number": [
-      "SWA1599", 
+      "SWA1599",
       "WN1599"
     ],
     "sfomuseum:placetype": "flight",
@@ -46,26 +46,33 @@
     "wof:country": "US",
     "wof:created": 1615911074,
     "wof:geomhash": "b0d868dab19a217943f06d97e1bf7ce6",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729903415
+      }
+    ],
     "wof:id": 1729903415,
     "wof:involves": [
-      1159289869, 
-      102531205, 
-      102527513, 
+      1159289869,
+      102531205,
+      102527513,
       1159285591
     ],
-    "wof:lastmodified": 1615911175,
+    "wof:lastmodified": 1717033192,
     "wof:name": "WN1599 (SFO-MDW)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -87.745903, 
+    -122.370943,
+    37.61799,
+    -87.745903,
     41.787532
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-87.745903,41.787532]],"type":"MultiPoint"}

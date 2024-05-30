@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102528997,
     "sfomuseum:flight_id": "20210302-A-UAL-416",
     "sfomuseum:flight_number": [
-      "UAL416", 
+      "UAL416",
       "UA416"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N36447",
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1614787504,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729853995
+      }
+    ],
     "wof:id": 1729853995,
     "wof:involves": [
-      1377564285, 
-      102527513, 
-      102528997, 
+      1377564285,
+      102527513,
+      102528997,
       1159285413
     ],
-    "wof:lastmodified": 1614787785,
+    "wof:lastmodified": 1717033194,
     "wof:name": "UA416 (SAN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.733534, 
-    -117.185927, 
+    -122.370943,
+    32.733534,
+    -117.185927,
     37.61799
   ],
   "geometry": {"coordinates":[[-117.185927,32.733534],[-122.370943,37.61799]],"type":"MultiPoint"}

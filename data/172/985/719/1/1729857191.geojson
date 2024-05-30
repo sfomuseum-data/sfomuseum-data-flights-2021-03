@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102527209,
     "sfomuseum:flight_id": "20210303-A-UAL-2047",
     "sfomuseum:flight_number": [
-      "UAL2047", 
+      "UAL2047",
       "UA2047"
     ],
     "sfomuseum:placetype": "flight",
@@ -46,26 +46,33 @@
     "wof:country": "US",
     "wof:created": 1614873894,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729857191
+      }
+    ],
     "wof:id": 1729857191,
     "wof:involves": [
-      102527209, 
-      1159285413, 
-      1159292085, 
+      102527209,
+      1159285413,
+      1159292085,
       102527513
     ],
-    "wof:lastmodified": 1614874216,
+    "wof:lastmodified": 1717033191,
     "wof:name": "UA2047 (LAS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    36.081003, 
-    -115.15644, 
+    -122.370943,
+    36.081003,
+    -115.15644,
     37.61799
   ],
   "geometry": {"coordinates":[[-115.15644,36.081003],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102527373,
     "sfomuseum:flight_id": "20210327-A-DAL-8922",
     "sfomuseum:flight_number": [
-      "DAL8922", 
+      "DAL8922",
       "DL8922"
     ],
     "sfomuseum:placetype": "flight",
@@ -46,26 +46,33 @@
     "wof:country": "US",
     "wof:created": 1616947511,
     "wof:geomhash": "d45c6baaf0d56697f52acbb8a9e14867",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729932889
+      }
+    ],
     "wof:id": 1729932889,
     "wof:involves": [
-      1159284261, 
-      1159289939, 
-      102527513, 
+      1159284261,
+      1159289939,
+      102527513,
       102527373
     ],
-    "wof:lastmodified": 1616948059,
+    "wof:lastmodified": 1717033192,
     "wof:name": "DL8922 (SAT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    29.534838, 
-    -98.472784, 
+    -122.370943,
+    29.534838,
+    -98.472784,
     37.61799
   ],
   "geometry": {"coordinates":[[-98.472784,29.534838],[-122.370943,37.61799]],"type":"MultiPoint"}

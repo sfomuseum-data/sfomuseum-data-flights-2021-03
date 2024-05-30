@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102533997,
     "sfomuseum:flight_id": "20210302-A-UAL-372",
     "sfomuseum:flight_number": [
-      "UAL372", 
+      "UAL372",
       "UA372"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N643UA",
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1614787502,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729853987
+      }
+    ],
     "wof:id": 1729853987,
     "wof:involves": [
-      102533997, 
-      1159285413, 
-      1159289965, 
+      102533997,
+      1159285413,
+      1159289965,
       102527513
     ],
-    "wof:lastmodified": 1614787785,
+    "wof:lastmodified": 1717033195,
     "wof:name": "UA372 (HNL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -157.918416, 
-    21.332508, 
-    -122.370943, 
+    -157.918416,
+    21.332508,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-157.918416,21.332508],[-122.370943,37.61799]],"type":"MultiPoint"}

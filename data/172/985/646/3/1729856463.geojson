@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102528659,
     "sfomuseum:flight_id": "20210303-A-AAL-2909",
     "sfomuseum:flight_number": [
-      "AAL2909", 
+      "AAL2909",
       "AA2909"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-approach"
     ],
     "swim:tail_number": "N524UW",
@@ -47,26 +47,33 @@
     "wof:country": "US",
     "wof:created": 1614873685,
     "wof:geomhash": "b96563c9986e04a3607ac552f48e111b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729856463
+      }
+    ],
     "wof:id": 1729856463,
     "wof:involves": [
-      1159289411, 
-      102527513, 
-      102528659, 
+      1159289411,
+      102527513,
+      102528659,
       1159283849
     ],
-    "wof:lastmodified": 1614874216,
+    "wof:lastmodified": 1717033191,
     "wof:name": "AA2909 (CLT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    35.220744, 
-    -80.942777, 
+    -122.370943,
+    35.220744,
+    -80.942777,
     37.61799
   ],
   "geometry": {"coordinates":[[-80.942777,35.220744],[-122.370943,37.61799]],"type":"MultiPoint"}

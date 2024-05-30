@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102526751,
     "sfomuseum:flight_id": "20210303-A-UAL-395",
     "sfomuseum:flight_number": [
-      "UAL395", 
+      "UAL395",
       "UA395"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N819UA",
@@ -52,26 +52,33 @@
     "wof:country": "US",
     "wof:created": 1614873906,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729857235
+      }
+    ],
     "wof:id": 1729857235,
     "wof:involves": [
-      1159289407, 
-      102527513, 
-      102526751, 
+      1159289407,
+      102527513,
+      102526751,
       1159285413
     ],
-    "wof:lastmodified": 1614874214,
+    "wof:lastmodified": 1717033191,
     "wof:name": "UA395 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-112.017392,33.432684],[-122.370943,37.61799]],"type":"MultiPoint"}

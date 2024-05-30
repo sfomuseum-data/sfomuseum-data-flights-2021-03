@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102533591,
     "sfomuseum:flight_id": "20210303-A-UAL-4699",
     "sfomuseum:flight_number": [
-      "UAL4699", 
+      "UAL4699",
       "UA4699"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1614873909,
     "wof:geomhash": "a35a6e87f0ae0f1f716f88067ee31aa3",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729857247
+      }
+    ],
     "wof:id": 1729857247,
     "wof:involves": [
-      102527513, 
-      102533591, 
-      1159285413, 
+      102527513,
+      102533591,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1614873909,
+    "wof:lastmodified": 1717033191,
     "wof:name": "UA4699 (PSP-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.824619, 
-    -116.506042, 
+    -122.370943,
+    33.824619,
+    -116.506042,
     37.61799
   ],
   "geometry": {"coordinates":[[-116.506042,33.824619],[-122.370943,37.61799]],"type":"MultiPoint"}

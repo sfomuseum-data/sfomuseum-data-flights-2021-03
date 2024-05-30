@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210321-D-JAL-5892",
     "sfomuseum:flight_number": [
-      "JAL5892", 
+      "JAL5892",
       "JL5892"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1616429473,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729920343
+      }
+    ],
     "wof:id": 1729920343,
     "wof:involves": [
-      102530741, 
-      102527513, 
-      1159284563, 
-      -1, 
+      102530741,
+      102527513,
+      1159284563,
+      -1,
       1159284583
     ],
-    "wof:lastmodified": 1616429473,
+    "wof:lastmodified": 1717033190,
     "wof:name": "JL5892 (SFO-BOS)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -71.01475, 
+    -122.370943,
+    37.61799,
+    -71.01475,
     42.362322
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-71.01475,42.362322]],"type":"MultiPoint"}

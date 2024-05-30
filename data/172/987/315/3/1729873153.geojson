@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102532929,
     "sfomuseum:flight_id": "20210307-A-HAL-42",
     "sfomuseum:flight_number": [
-      "HAL42", 
+      "HAL42",
       "HA42"
     ],
     "sfomuseum:placetype": "flight",
@@ -46,26 +46,33 @@
     "wof:country": "US",
     "wof:created": 1615219506,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729873153
+      }
+    ],
     "wof:id": 1729873153,
     "wof:involves": [
-      1377564297, 
-      102527513, 
-      102532929, 
+      1377564297,
+      102527513,
+      102532929,
       1159284489
     ],
-    "wof:lastmodified": 1615220004,
+    "wof:lastmodified": 1717033194,
     "wof:name": "HA42 (OGG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -156.437877, 
-    20.894952, 
-    -122.370943, 
+    -156.437877,
+    20.894952,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-156.437877,20.894952],[-122.370943,37.61799]],"type":"MultiPoint"}

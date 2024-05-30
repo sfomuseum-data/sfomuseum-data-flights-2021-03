@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210317-D-BAW-71",
     "sfomuseum:flight_number": [
-      "BAW71", 
+      "BAW71",
       "BA71"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1616083698,
     "wof:geomhash": "86f41e039827d60bcd1a72801f72cbc2",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729908907
+      }
+    ],
     "wof:id": 1729908907,
     "wof:involves": [
-      102556703, 
-      102527513, 
-      1159284021, 
+      102556703,
+      102527513,
+      1159284021,
       -1
     ],
-    "wof:lastmodified": 1616083698,
+    "wof:lastmodified": 1717033195,
     "wof:name": "BA71 (SFO-LHR)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -0.450443, 
+    -122.370943,
+    37.61799,
+    -0.450443,
     51.470087
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-0.450443,51.470087]],"type":"MultiPoint"}

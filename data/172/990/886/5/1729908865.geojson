@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210317-D-ASA-3451",
     "sfomuseum:flight_number": [
-      "ASA3451", 
+      "ASA3451",
       "AS3451"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1616083686,
     "wof:geomhash": "a08c5b1a6c329f228ec453404f254a51",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729908865
+      }
+    ],
     "wof:id": 1729908865,
     "wof:involves": [
-      102525799, 
-      102527513, 
-      1159283813, 
+      102525799,
+      102527513,
+      1159283813,
       -1
     ],
-    "wof:lastmodified": 1616083686,
+    "wof:lastmodified": 1717033194,
     "wof:name": "AS3451 (SFO-DAL)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.845849, 
-    -96.850523, 
+    -122.370943,
+    32.845849,
+    -96.850523,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-96.850523,32.845849]],"type":"MultiPoint"}

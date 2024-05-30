@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102532251,
     "sfomuseum:flight_id": "20210303-A-ACA-3342",
     "sfomuseum:flight_number": [
-      "ACA3342", 
+      "ACA3342",
       "AC3342"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1614873697,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729856499
+      }
+    ],
     "wof:id": 1729856499,
     "wof:involves": [
-      102527513, 
-      102532251, 
-      1159283597, 
-      -1, 
+      102527513,
+      102532251,
+      1159283597,
+      -1,
       1159285413
     ],
-    "wof:lastmodified": 1614873697,
+    "wof:lastmodified": 1717033191,
     "wof:name": "AC3342 (PDX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.597389, 
-    37.61799, 
-    -122.370943, 
+    -122.597389,
+    37.61799,
+    -122.370943,
     45.586144
   ],
   "geometry": {"coordinates":[[-122.597389,45.586144],[-122.370943,37.61799]],"type":"MultiPoint"}

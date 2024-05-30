@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102529173,
     "sfomuseum:flight_id": "20210303-A-ACA-4033",
     "sfomuseum:flight_number": [
-      "ACA4033", 
+      "ACA4033",
       "AC4033"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1614873705,
     "wof:geomhash": "8fe6791c85dc44fbddffd72416ea0024",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729856521
+      }
+    ],
     "wof:id": 1729856521,
     "wof:involves": [
-      102527513, 
-      102529173, 
-      1159283597, 
-      -1, 
+      102527513,
+      102529173,
+      1159283597,
+      -1,
       1159285413
     ],
-    "wof:lastmodified": 1614873705,
+    "wof:lastmodified": 1717033191,
     "wof:name": "AC4033 (ABQ-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    35.048762, 
-    -106.620586, 
+    -122.370943,
+    35.048762,
+    -106.620586,
     37.61799
   ],
   "geometry": {"coordinates":[[-106.620586,35.048762],[-122.370943,37.61799]],"type":"MultiPoint"}

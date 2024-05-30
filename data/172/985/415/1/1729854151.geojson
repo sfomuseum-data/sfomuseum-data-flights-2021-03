@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102533795,
     "sfomuseum:flight_id": "20210302-A-WJA-6819",
     "sfomuseum:flight_number": [
-      "WJA6819", 
+      "WJA6819",
       "WS6819"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1614787546,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729854151
+      }
+    ],
     "wof:id": 1729854151,
     "wof:involves": [
-      102527513, 
-      102533795, 
-      1159285523, 
-      -1, 
+      102527513,
+      102533795,
+      1159285523,
+      -1,
       1159284261
     ],
-    "wof:lastmodified": 1614787546,
+    "wof:lastmodified": 1717033195,
     "wof:name": "WS6819 (LAX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.942593, 
-    -118.38951, 
+    -122.370943,
+    33.942593,
+    -118.38951,
     37.61799
   ],
   "geometry": {"coordinates":[[-118.38951,33.942593],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210309-D-UAL-1111",
     "sfomuseum:flight_number": [
-      "UAL1111", 
+      "UAL1111",
       "UA1111"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1615392510,
     "wof:geomhash": "a2498fe603884edb23014f03e0e3c121",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729881777
+      }
+    ],
     "wof:id": 1729881777,
     "wof:involves": [
-      102528943, 
-      102527513, 
-      1159285413, 
+      102528943,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1615392510,
+    "wof:lastmodified": 1717033191,
     "wof:name": "UA1111 (SFO-LIH)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -159.347789, 
-    21.981539, 
-    -122.370943, 
+    -159.347789,
+    21.981539,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-159.347789,21.981539]],"type":"MultiPoint"}

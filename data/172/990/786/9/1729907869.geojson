@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102533269,
     "sfomuseum:flight_id": "20210317-A-ASA-9809",
     "sfomuseum:flight_number": [
-      "ASA9809", 
+      "ASA9809",
       "AS9809"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N525AS",
@@ -48,26 +48,33 @@
     "wof:country": "US",
     "wof:created": 1616083425,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729907869
+      }
+    ],
     "wof:id": 1729907869,
     "wof:involves": [
-      1159289871, 
-      102527513, 
-      102533269, 
+      1159289871,
+      102527513,
+      102533269,
       1159283813
     ],
-    "wof:lastmodified": 1616083911,
+    "wof:lastmodified": 1717033194,
     "wof:name": "AS9809 (SEA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -122.304268, 
+    -122.370943,
+    37.61799,
+    -122.304268,
     47.441823
   ],
   "geometry": {"coordinates":[[-122.304268,47.441823],[-122.370943,37.61799]],"type":"MultiPoint"}

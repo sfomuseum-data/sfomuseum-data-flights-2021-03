@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102528817,
     "sfomuseum:flight_id": "20210303-A-UAL-555",
     "sfomuseum:flight_number": [
-      "UAL555", 
+      "UAL555",
       "UA555"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1614873922,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729857295
+      }
+    ],
     "wof:id": 1729857295,
     "wof:involves": [
-      102527513, 
-      102528817, 
-      1159285413, 
+      102527513,
+      102528817,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1614873922,
+    "wof:lastmodified": 1717033191,
     "wof:name": "UA555 (IAD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -77.453702, 
+    -122.370943,
+    37.61799,
+    -77.453702,
     38.949246
   ],
   "geometry": {"coordinates":[[-77.453702,38.949246],[-122.370943,37.61799]],"type":"MultiPoint"}

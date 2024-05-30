@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102526751,
     "sfomuseum:flight_id": "20210318-A-ASA-9802",
     "sfomuseum:flight_number": [
-      "ASA9802", 
+      "ASA9802",
       "AS9802"
     ],
     "sfomuseum:placetype": "flight",
@@ -46,26 +46,33 @@
     "wof:country": "US",
     "wof:created": 1616169847,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729910371
+      }
+    ],
     "wof:id": 1729910371,
     "wof:involves": [
-      102527513, 
-      102526751, 
-      1159283813, 
+      102527513,
+      102526751,
+      1159283813,
       1377564285
     ],
-    "wof:lastmodified": 1616170381,
+    "wof:lastmodified": 1717033190,
     "wof:name": "AS9802 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-112.017392,33.432684],[-122.370943,37.61799]],"type":"MultiPoint"}

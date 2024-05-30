@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102550391,
     "sfomuseum:flight_id": "20210323-A-CSN-569",
     "sfomuseum:flight_number": [
-      "CSN569", 
+      "CSN569",
       "CZ569"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1616601850,
     "wof:geomhash": "247e1e318adb65668d4614fd3ca74ae2",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729922575
+      }
+    ],
     "wof:id": 1729922575,
     "wof:involves": [
-      102527513, 
-      102550391, 
-      1159284165, 
+      102527513,
+      102550391,
+      1159284165,
       -1
     ],
-    "wof:lastmodified": 1616601850,
+    "wof:lastmodified": 1717033191,
     "wof:name": "CZ569 (CAN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    23.447348, 
-    113.399556, 
+    -122.370943,
+    23.447348,
+    113.399556,
     37.61799
   ],
   "geometry": {"coordinates":[[113.399556,23.447348],[-122.370943,37.61799]],"type":"MultiPoint"}

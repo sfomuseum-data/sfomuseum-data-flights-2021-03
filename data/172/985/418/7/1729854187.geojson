@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210302-D-AAR-6315",
     "sfomuseum:flight_number": [
-      "AAR6315", 
+      "AAR6315",
       "OZ6315"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1614787555,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729854187
+      }
+    ],
     "wof:id": 1729854187,
     "wof:involves": [
-      102528817, 
-      102527513, 
-      1159283917, 
-      -1, 
+      102528817,
+      102527513,
+      1159283917,
+      -1,
       1159285413
     ],
-    "wof:lastmodified": 1614787555,
+    "wof:lastmodified": 1717033190,
     "wof:name": "OZ6315 (SFO-IAD)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -77.453702, 
+    -122.370943,
+    37.61799,
+    -77.453702,
     38.949246
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-77.453702,38.949246]],"type":"MultiPoint"}

@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102527209,
     "sfomuseum:flight_id": "20210303-A-UAL-1483",
     "sfomuseum:flight_number": [
-      "UAL1483", 
+      "UAL1483",
       "UA1483"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1614873887,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729857163
+      }
+    ],
     "wof:id": 1729857163,
     "wof:involves": [
-      1159289407, 
-      102527513, 
-      102527209, 
+      1159289407,
+      102527513,
+      102527209,
       1159285413
     ],
-    "wof:lastmodified": 1614874213,
+    "wof:lastmodified": 1717033191,
     "wof:name": "UA1483 (LAS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    36.081003, 
-    -115.15644, 
+    -122.370943,
+    36.081003,
+    -115.15644,
     37.61799
   ],
   "geometry": {"coordinates":[[-115.15644,36.081003],[-122.370943,37.61799]],"type":"MultiPoint"}

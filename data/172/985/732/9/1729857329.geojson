@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102534161,
     "sfomuseum:flight_id": "20210303-A-UAL-5926",
     "sfomuseum:flight_number": [
-      "UAL5926", 
+      "UAL5926",
       "UA5926"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1614873931,
     "wof:geomhash": "01009f732d03a7803d3f7fd23cf321f4",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729857329
+      }
+    ],
     "wof:id": 1729857329,
     "wof:involves": [
-      102527513, 
-      102534161, 
-      1159285413, 
+      102527513,
+      102534161,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1614873931,
+    "wof:lastmodified": 1717033192,
     "wof:name": "UA5926 (SNA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.677724, 
-    -117.86628, 
+    -122.370943,
+    33.677724,
+    -117.86628,
     37.61799
   ],
   "geometry": {"coordinates":[[-117.86628,33.677724],[-122.370943,37.61799]],"type":"MultiPoint"}

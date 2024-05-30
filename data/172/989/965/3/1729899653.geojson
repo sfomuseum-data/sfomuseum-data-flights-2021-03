@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210314-D-UAL-174",
     "sfomuseum:flight_number": [
-      "UAL174", 
+      "UAL174",
       "UA174"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1615824698,
     "wof:geomhash": "8c8f659fbae3cc58419f360e0abfbe56",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729899653
+      }
+    ],
     "wof:id": 1729899653,
     "wof:involves": [
-      102532929, 
-      102527513, 
-      1159285413, 
+      102532929,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1615824698,
+    "wof:lastmodified": 1717033196,
     "wof:name": "UA174 (SFO-OGG)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -156.437877, 
-    20.894952, 
-    -122.370943, 
+    -156.437877,
+    20.894952,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-156.437877,20.894952]],"type":"MultiPoint"}

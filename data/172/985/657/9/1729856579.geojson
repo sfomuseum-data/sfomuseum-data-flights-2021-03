@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102531189,
     "sfomuseum:flight_id": "20210303-A-ACA-5807",
     "sfomuseum:flight_number": [
-      "ACA5807", 
+      "ACA5807",
       "AC5807"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1614873725,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729856579
+      }
+    ],
     "wof:id": 1729856579,
     "wof:involves": [
-      102527513, 
-      102531189, 
-      1159283597, 
-      -1, 
+      102527513,
+      102531189,
+      1159283597,
+      -1,
       1159285413
     ],
-    "wof:lastmodified": 1614873725,
+    "wof:lastmodified": 1717033191,
     "wof:name": "AC5807 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -104.672219, 
+    -122.370943,
+    37.61799,
+    -104.672219,
     39.864939
   ],
   "geometry": {"coordinates":[[-104.672219,39.864939],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102533631,
     "sfomuseum:flight_id": "20210303-A-AAL-2920",
     "sfomuseum:flight_number": [
-      "AAL2920", 
+      "AAL2920",
       "AA2920"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N200NV",
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1614873687,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729856467
+      }
+    ],
     "wof:id": 1729856467,
     "wof:involves": [
-      1159289871, 
-      102527513, 
-      102533631, 
+      1159289871,
+      102527513,
+      102533631,
       1159283849
     ],
-    "wof:lastmodified": 1614874212,
+    "wof:lastmodified": 1717033191,
     "wof:name": "AA2920 (ORD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -87.894364, 
+    -122.370943,
+    37.61799,
+    -87.894364,
     41.983038
   ],
   "geometry": {"coordinates":[[-87.894364,41.983038],[-122.370943,37.61799]],"type":"MultiPoint"}

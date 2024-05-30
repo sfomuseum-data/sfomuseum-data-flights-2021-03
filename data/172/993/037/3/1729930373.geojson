@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102528779,
     "sfomuseum:flight_id": "20210326-A-JBU-2707",
     "sfomuseum:flight_number": [
-      "JBU2707", 
+      "JBU2707",
       "B62707"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1616861161,
     "wof:geomhash": "e1d14091bb010ff3febce3dc78c1c8b4",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729930373
+      }
+    ],
     "wof:id": 1729930373,
     "wof:involves": [
-      102527513, 
-      102528779, 
-      1159284583, 
+      102527513,
+      102528779,
+      1159284583,
       -1
     ],
-    "wof:lastmodified": 1616861161,
+    "wof:lastmodified": 1717033190,
     "wof:name": "B62707 (RDU-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    35.876323, 
-    -78.790399, 
+    -122.370943,
+    35.876323,
+    -78.790399,
     37.61799
   ],
   "geometry": {"coordinates":[[-78.790399,35.876323],[-122.370943,37.61799]],"type":"MultiPoint"}

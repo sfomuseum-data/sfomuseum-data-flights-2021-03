@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210327-D-DAL-8839",
     "sfomuseum:flight_number": [
-      "DAL8839", 
+      "DAL8839",
       "DL8839"
     ],
     "sfomuseum:placetype": "flight",
@@ -46,26 +46,33 @@
     "wof:country": "US",
     "wof:created": 1616947847,
     "wof:geomhash": "5cb31017412a00ced54cc35c2a74371e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729934131
+      }
+    ],
     "wof:id": 1729934131,
     "wof:involves": [
-      1159289939, 
-      102530559, 
-      102527513, 
+      1159289939,
+      102530559,
+      102527513,
       1159284261
     ],
-    "wof:lastmodified": 1616948061,
+    "wof:lastmodified": 1717033193,
     "wof:name": "DL8839 (SFO-SMF)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -121.589912, 
+    -122.370943,
+    37.61799,
+    -121.589912,
     38.685533
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-121.589912,38.685533]],"type":"MultiPoint"}

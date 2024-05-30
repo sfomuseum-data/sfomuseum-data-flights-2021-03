@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102531205,
     "sfomuseum:flight_id": "20210303-A-SWA-1394",
     "sfomuseum:flight_number": [
-      "SWA1394", 
+      "SWA1394",
       "WN1394"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N7883A",
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1614873864,
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729857083
+      }
+    ],
     "wof:id": 1729857083,
     "wof:involves": [
-      1159289869, 
-      102527513, 
-      102531205, 
+      1159289869,
+      102527513,
+      102531205,
       1159285591
     ],
-    "wof:lastmodified": 1614874213,
+    "wof:lastmodified": 1717033191,
     "wof:name": "WN1394 (MDW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -87.745903, 
+    -122.370943,
+    37.61799,
+    -87.745903,
     41.787532
   ],
   "geometry": {"coordinates":[[-87.745903,41.787532],[-122.370943,37.61799]],"type":"MultiPoint"}

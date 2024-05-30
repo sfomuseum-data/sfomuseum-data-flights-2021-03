@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102526751,
     "sfomuseum:flight_id": "20210303-A-SWA-2502",
     "sfomuseum:flight_number": [
-      "SWA2502", 
+      "SWA2502",
       "WN2502"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1614873868,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729857095
+      }
+    ],
     "wof:id": 1729857095,
     "wof:involves": [
-      1159289871, 
-      102527513, 
-      102526751, 
+      1159289871,
+      102527513,
+      102526751,
       1159285591
     ],
-    "wof:lastmodified": 1614874213,
+    "wof:lastmodified": 1717033191,
     "wof:name": "WN2502 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-112.017392,33.432684],[-122.370943,37.61799]],"type":"MultiPoint"}

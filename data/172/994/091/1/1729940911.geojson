@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102530049,
     "sfomuseum:flight_id": "20210330-A-ASA-345",
     "sfomuseum:flight_number": [
-      "ASA345", 
+      "ASA345",
       "AS345"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1617206681,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729940911
+      }
+    ],
     "wof:id": 1729940911,
     "wof:involves": [
-      102527513, 
-      102530049, 
-      1159283813, 
+      102527513,
+      102530049,
+      1159283813,
       -1
     ],
-    "wof:lastmodified": 1617206681,
+    "wof:lastmodified": 1717033191,
     "wof:name": "AS345 (EWR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -74.177526, 
+    -122.370943,
+    37.61799,
+    -74.177526,
     40.691243
   ],
   "geometry": {"coordinates":[[-74.177526,40.691243],[-122.370943,37.61799]],"type":"MultiPoint"}

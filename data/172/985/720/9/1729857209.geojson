@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102533269,
     "sfomuseum:flight_id": "20210303-A-UAL-2499",
     "sfomuseum:flight_number": [
-      "UAL2499", 
+      "UAL2499",
       "UA2499"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1614873899,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729857209
+      }
+    ],
     "wof:id": 1729857209,
     "wof:involves": [
-      1159289407, 
-      102527513, 
-      102533269, 
+      1159289407,
+      102527513,
+      102533269,
       1159285413
     ],
-    "wof:lastmodified": 1614874213,
+    "wof:lastmodified": 1717033191,
     "wof:name": "UA2499 (SEA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -122.304268, 
+    -122.370943,
+    37.61799,
+    -122.304268,
     47.441823
   ],
   "geometry": {"coordinates":[[-122.304268,47.441823],[-122.370943,37.61799]],"type":"MultiPoint"}

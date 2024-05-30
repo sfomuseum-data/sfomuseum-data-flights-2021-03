@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102534365,
     "sfomuseum:flight_id": "20210302-A-AAL-76",
     "sfomuseum:flight_number": [
-      "AAL76", 
+      "AAL76",
       "AA76"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N104NN",
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1614787282,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729853209
+      }
+    ],
     "wof:id": 1729853209,
     "wof:involves": [
-      1159289411, 
-      102527513, 
-      102534365, 
+      1159289411,
+      102527513,
+      102534365,
       1159283849
     ],
-    "wof:lastmodified": 1614787784,
+    "wof:lastmodified": 1717033194,
     "wof:name": "AA76 (JFK-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -73.787845, 
+    -122.370943,
+    37.61799,
+    -73.787845,
     40.643286
   ],
   "geometry": {"coordinates":[[-73.787845,40.643286],[-122.370943,37.61799]],"type":"MultiPoint"}

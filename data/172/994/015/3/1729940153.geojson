@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210329-D-UAL-2709",
     "sfomuseum:flight_number": [
-      "UAL2709", 
+      "UAL2709",
       "UA2709"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1617120847,
     "wof:geomhash": "b40be45e404b6672d17874a2b6d6d5a4",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729940153
+      }
+    ],
     "wof:id": 1729940153,
     "wof:involves": [
-      102530535, 
-      102527513, 
-      1159285413, 
+      102530535,
+      102527513,
+      1159285413,
       1159289985
     ],
-    "wof:lastmodified": 1617120928,
+    "wof:lastmodified": 1717033190,
     "wof:name": "UA2709 (SFO-ROW)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.311119, 
-    -104.517073, 
+    -122.370943,
+    33.311119,
+    -104.517073,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-104.517073,33.311119]],"type":"MultiPoint"}

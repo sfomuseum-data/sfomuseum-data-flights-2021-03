@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102532939,
     "sfomuseum:flight_id": "20210302-A-UAL-433",
     "sfomuseum:flight_number": [
-      "UAL433", 
+      "UAL433",
       "UA433"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N61898",
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1614787505,
     "wof:geomhash": "d5ad4a83d3d679d1b3fe86e419b08d84",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729853999
+      }
+    ],
     "wof:id": 1729853999,
     "wof:involves": [
-      1377564285, 
-      102527513, 
-      102532939, 
+      1377564285,
+      102527513,
+      102532939,
       1159285413
     ],
-    "wof:lastmodified": 1614787785,
+    "wof:lastmodified": 1717033194,
     "wof:name": "UA433 (KOA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -156.03506, 
-    19.732444, 
-    -122.370943, 
+    -156.03506,
+    19.732444,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-156.03506,19.732444],[-122.370943,37.61799]],"type":"MultiPoint"}

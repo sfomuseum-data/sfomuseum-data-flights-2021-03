@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102525799,
     "sfomuseum:flight_id": "20210303-A-ASA-3329",
     "sfomuseum:flight_number": [
-      "ASA3329", 
+      "ASA3329",
       "AS3329"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1614873770,
     "wof:geomhash": "ecfc64ce72b903780fc129f985c12eef",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729856729
+      }
+    ],
     "wof:id": 1729856729,
     "wof:involves": [
-      102527513, 
-      102525799, 
-      1159283813, 
+      102527513,
+      102525799,
+      1159283813,
       -1
     ],
-    "wof:lastmodified": 1614873770,
+    "wof:lastmodified": 1717033191,
     "wof:name": "AS3329 (DAL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.845849, 
-    -96.850523, 
+    -122.370943,
+    32.845849,
+    -96.850523,
     37.61799
   ],
   "geometry": {"coordinates":[[-96.850523,32.845849],[-122.370943,37.61799]],"type":"MultiPoint"}

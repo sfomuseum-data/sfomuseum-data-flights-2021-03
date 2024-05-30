@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102528809,
     "sfomuseum:flight_id": "20210303-A-UAL-5805",
     "sfomuseum:flight_number": [
-      "UAL5805", 
+      "UAL5805",
       "UA5805"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1614873927,
     "wof:geomhash": "cf2e6d8f729795819679319a6b605e44",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729857313
+      }
+    ],
     "wof:id": 1729857313,
     "wof:involves": [
-      102527513, 
-      102528809, 
-      1159285413, 
+      102527513,
+      102528809,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1614873927,
+    "wof:lastmodified": 1717033192,
     "wof:name": "UA5805 (EGE-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -106.91431, 
+    -122.370943,
+    37.61799,
+    -106.91431,
     39.641137
   ],
   "geometry": {"coordinates":[[-106.91431,39.641137],[-122.370943,37.61799]],"type":"MultiPoint"}

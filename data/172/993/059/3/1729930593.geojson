@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102532065,
     "sfomuseum:flight_id": "20210326-A-UAL-1369",
     "sfomuseum:flight_number": [
-      "UAL1369", 
+      "UAL1369",
       "UA1369"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1616861218,
     "wof:geomhash": "885c4de9460c22786ce1477efbdd0753",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729930593
+      }
+    ],
     "wof:id": 1729930593,
     "wof:involves": [
-      102527513, 
-      102532065, 
-      1159285413, 
+      102527513,
+      102532065,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1616861218,
+    "wof:lastmodified": 1717033191,
     "wof:name": "UA1369 (GJT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -108.527872, 
+    -122.370943,
+    37.61799,
+    -108.527872,
     39.12122
   ],
   "geometry": {"coordinates":[[-108.527872,39.12122],[-122.370943,37.61799]],"type":"MultiPoint"}

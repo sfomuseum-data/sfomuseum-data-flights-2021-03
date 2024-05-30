@@ -50,10 +50,13 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1652201587,
+    "wof:lastmodified": 1717033196,
     "wof:name": "UA2759 (CHS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

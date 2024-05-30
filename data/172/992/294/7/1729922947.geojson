@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527187,
     "sfomuseum:flight_id": "20210323-A-UAL-1390",
     "sfomuseum:flight_number": [
-      "UAL1390", 
+      "UAL1390",
       "UA1390"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1616601953,
     "wof:geomhash": "10bf27aabb5200ef4863b11f6c2a5d60",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729922947
+      }
+    ],
     "wof:id": 1729922947,
     "wof:involves": [
-      102527513, 
-      102527187, 
-      1159285413, 
+      102527513,
+      102527187,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1616601953,
+    "wof:lastmodified": 1717033192,
     "wof:name": "UA1390 (MFR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.874456, 
-    37.61799, 
-    -122.370943, 
+    -122.874456,
+    37.61799,
+    -122.370943,
     42.369651
   ],
   "geometry": {"coordinates":[[-122.874456,42.369651],[-122.370943,37.61799]],"type":"MultiPoint"}

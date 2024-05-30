@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210314-D-UAL-2760",
     "sfomuseum:flight_number": [
-      "UAL2760", 
+      "UAL2760",
       "UA2760"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1615824707,
     "wof:geomhash": "9e57705c73bd73668d4b0d529a043646",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729899687
+      }
+    ],
     "wof:id": 1729899687,
     "wof:involves": [
-      102527529, 
-      102527513, 
-      1159285413, 
+      102527529,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1615824707,
+    "wof:lastmodified": 1717033196,
     "wof:name": "UA2760 (SFO-SJC)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.363728, 
-    -121.928755, 
+    -122.370943,
+    37.363728,
+    -121.928755,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-121.928755,37.363728]],"type":"MultiPoint"}

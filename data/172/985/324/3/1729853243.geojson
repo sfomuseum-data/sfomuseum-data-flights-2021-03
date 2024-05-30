@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102525535,
     "sfomuseum:flight_id": "20210302-A-AAR-6346",
     "sfomuseum:flight_number": [
-      "AAR6346", 
+      "AAR6346",
       "OZ6346"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1614787293,
     "wof:geomhash": "a4d4dc469296ca0f5ad383dc766835b1",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729853243
+      }
+    ],
     "wof:id": 1729853243,
     "wof:involves": [
-      102527513, 
-      102525535, 
-      1159283917, 
-      -1, 
+      102527513,
+      102525535,
+      1159283917,
+      -1,
       1159285413
     ],
-    "wof:lastmodified": 1614787293,
+    "wof:lastmodified": 1717033194,
     "wof:name": "OZ6346 (RNO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -119.772167, 
+    -122.370943,
+    37.61799,
+    -119.772167,
     39.505219
   ],
   "geometry": {"coordinates":[[-119.772167,39.505219],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210305-D-AAR-285",
     "sfomuseum:flight_number": [
-      "AAR285", 
+      "AAR285",
       "OZ285"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-takeoff"
     ],
     "swim:tail_number": "HL7436",
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1615046821,
     "wof:geomhash": "76fab8ba90cc172f777e745d124625d2",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729865699
+      }
+    ],
     "wof:id": 1729865699,
     "wof:involves": [
-      1159289915, 
-      102556451, 
-      102527513, 
+      1159289915,
+      102556451,
+      102527513,
       1159283917
     ],
-    "wof:lastmodified": 1615047138,
+    "wof:lastmodified": 1717033193,
     "wof:name": "OZ285 (SFO-ICN)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.453966, 
-    126.661632, 
+    -122.370943,
+    37.453966,
+    126.661632,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[126.661632,37.453966]],"type":"MultiPoint"}

@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527733,
     "sfomuseum:flight_id": "20210303-A-UAL-5745",
     "sfomuseum:flight_number": [
-      "UAL5745", 
+      "UAL5745",
       "UA5745"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1614873925,
     "wof:geomhash": "e506e1cc6e68aaf992ce3bac53e4e4fa",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729857307
+      }
+    ],
     "wof:id": 1729857307,
     "wof:involves": [
-      102527513, 
-      102527733, 
-      1159285413, 
+      102527513,
+      102527733,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1614873925,
+    "wof:lastmodified": 1717033192,
     "wof:name": "UA5745 (BOI-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -116.224634, 
+    -122.370943,
+    37.61799,
+    -116.224634,
     43.564048
   ],
   "geometry": {"coordinates":[[-116.224634,43.564048],[-122.370943,37.61799]],"type":"MultiPoint"}

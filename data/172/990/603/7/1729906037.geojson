@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210316-D-AMX-669",
     "sfomuseum:flight_number": [
-      "AMX669", 
+      "AMX669",
       "AM669"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1615997312,
     "wof:geomhash": "01999c4327be8e36df88ffd5cda77111",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729906037
+      }
+    ],
     "wof:id": 1729906037,
     "wof:involves": [
-      102536579, 
-      102527513, 
-      1159283539, 
+      102536579,
+      102527513,
+      1159283539,
       -1
     ],
-    "wof:lastmodified": 1615997312,
+    "wof:lastmodified": 1717033193,
     "wof:name": "AM669 (SFO-MEX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    19.431302, 
-    -99.080804, 
+    -122.370943,
+    19.431302,
+    -99.080804,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-99.080804,19.431302]],"type":"MultiPoint"}

@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210307-D-UAL-1359",
     "sfomuseum:flight_number": [
-      "UAL1359", 
+      "UAL1359",
       "UA1359"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1615219919,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729874649
+      }
+    ],
     "wof:id": 1729874649,
     "wof:involves": [
-      102527363, 
-      102527513, 
-      1159285413, 
+      102527363,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1615219919,
+    "wof:lastmodified": 1717033192,
     "wof:name": "UA1359 (SFO-SLC)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -111.980566, 
+    -122.370943,
+    37.61799,
+    -111.980566,
     40.78217
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-111.980566,40.78217]],"type":"MultiPoint"}

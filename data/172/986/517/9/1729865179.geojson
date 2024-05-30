@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102530841,
     "sfomuseum:flight_id": "20210305-A-JBU-2977",
     "sfomuseum:flight_number": [
-      "JBU2977", 
+      "JBU2977",
       "B62977"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N991JT",
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1615046685,
     "wof:geomhash": "d17d7e3187ba5afa3de1a7310fca2526",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729865179
+      }
+    ],
     "wof:id": 1729865179,
     "wof:involves": [
-      1159289411, 
-      102527513, 
-      102530841, 
+      1159289411,
+      102527513,
+      102530841,
       1159284583
     ],
-    "wof:lastmodified": 1615047137,
+    "wof:lastmodified": 1717033193,
     "wof:name": "B62977 (FLL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    26.07486, 
-    -80.138518, 
+    -122.370943,
+    26.07486,
+    -80.138518,
     37.61799
   ],
   "geometry": {"coordinates":[[-80.138518,26.07486],[-122.370943,37.61799]],"type":"MultiPoint"}

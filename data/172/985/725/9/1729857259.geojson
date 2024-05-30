@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102530507,
     "sfomuseum:flight_id": "20210303-A-UAL-4792",
     "sfomuseum:flight_number": [
-      "UAL4792", 
+      "UAL4792",
       "UA4792"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1614873912,
     "wof:geomhash": "e570a09b358444cf621c068c13b8dbc0",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729857259
+      }
+    ],
     "wof:id": 1729857259,
     "wof:involves": [
-      102527513, 
-      102530507, 
-      1159285413, 
+      102527513,
+      102530507,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1614873912,
+    "wof:lastmodified": 1717033191,
     "wof:name": "UA4792 (RDM-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -121.157137, 
+    -122.370943,
+    37.61799,
+    -121.157137,
     44.259811
   ],
   "geometry": {"coordinates":[[-121.157137,44.259811],[-122.370943,37.61799]],"type":"MultiPoint"}

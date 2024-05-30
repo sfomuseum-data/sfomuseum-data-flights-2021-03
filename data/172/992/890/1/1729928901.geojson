@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210325-D-JBU-2708",
     "sfomuseum:flight_number": [
-      "JBU2708", 
+      "JBU2708",
       "B62708"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1616775133,
     "wof:geomhash": "739cf7062aa24bbf1662c0bae366af8d",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729928901
+      }
+    ],
     "wof:id": 1729928901,
     "wof:involves": [
-      102528779, 
-      102527513, 
-      1159284583, 
+      102528779,
+      102527513,
+      1159284583,
       -1
     ],
-    "wof:lastmodified": 1616775133,
+    "wof:lastmodified": 1717033195,
     "wof:name": "B62708 (SFO-RDU)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    35.876323, 
-    -78.790399, 
+    -122.370943,
+    35.876323,
+    -78.790399,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-78.790399,35.876323]],"type":"MultiPoint"}

@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210303-D-AIC-174",
     "sfomuseum:flight_number": [
-      "AIC174", 
+      "AIC174",
       "AI174"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1614873990,
     "wof:geomhash": "5685f56014cf853d095c4b0f2d5ea6d9",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729857531
+      }
+    ],
     "wof:id": 1729857531,
     "wof:involves": [
-      102555709, 
-      102527513, 
-      1159283649, 
+      102555709,
+      102527513,
+      1159283649,
       1159289993
     ],
-    "wof:lastmodified": 1614874217,
+    "wof:lastmodified": 1717033192,
     "wof:name": "AI174 (SFO-DEL)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    28.561954, 
-    77.098117, 
+    -122.370943,
+    28.561954,
+    77.098117,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[77.098117,28.561954]],"type":"MultiPoint"}

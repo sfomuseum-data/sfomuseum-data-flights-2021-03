@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102532251,
     "sfomuseum:flight_id": "20210303-A-UAL-1687",
     "sfomuseum:flight_number": [
-      "UAL1687", 
+      "UAL1687",
       "UA1687"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N889UA",
@@ -52,26 +52,33 @@
     "wof:country": "US",
     "wof:created": 1614873892,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729857183
+      }
+    ],
     "wof:id": 1729857183,
     "wof:involves": [
-      1159289407, 
-      102527513, 
-      102532251, 
+      1159289407,
+      102527513,
+      102532251,
       1159285413
     ],
-    "wof:lastmodified": 1614874213,
+    "wof:lastmodified": 1717033191,
     "wof:name": "UA1687 (PDX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.597389, 
-    37.61799, 
-    -122.370943, 
+    -122.597389,
+    37.61799,
+    -122.370943,
     45.586144
   ],
   "geometry": {"coordinates":[[-122.597389,45.586144],[-122.370943,37.61799]],"type":"MultiPoint"}

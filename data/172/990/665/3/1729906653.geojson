@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210316-D-UAL-2517",
     "sfomuseum:flight_number": [
-      "UAL2517", 
+      "UAL2517",
       "UA2517"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N33264",
@@ -52,26 +52,33 @@
     "wof:country": "US",
     "wof:created": 1615997475,
     "wof:geomhash": "24c5d8bcd340273688237ae435bbe348",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729906653
+      }
+    ],
     "wof:id": 1729906653,
     "wof:involves": [
-      1159285413, 
-      1159289871, 
-      102531979, 
+      1159285413,
+      1159289871,
+      102531979,
       102527513
     ],
-    "wof:lastmodified": 1615997540,
+    "wof:lastmodified": 1717033193,
     "wof:name": "UA2517 (SFO-ANC)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -149.968401, 
-    37.61799, 
-    -122.370943, 
+    -149.968401,
+    37.61799,
+    -122.370943,
     61.173606
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-149.968401,61.173606]],"type":"MultiPoint"}

@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102531023,
     "sfomuseum:flight_id": "20210303-A-AAL-2280",
     "sfomuseum:flight_number": [
-      "AAL2280", 
+      "AAL2280",
       "AA2280"
     ],
     "sfomuseum:placetype": "flight",
@@ -48,26 +48,33 @@
     "wof:country": "US",
     "wof:created": 1614873684,
     "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729856461
+      }
+    ],
     "wof:id": 1729856461,
     "wof:involves": [
-      1159289411, 
-      102527513, 
-      102531023, 
+      1159289411,
+      102527513,
+      102531023,
       1159283849
     ],
-    "wof:lastmodified": 1614874216,
+    "wof:lastmodified": 1717033191,
     "wof:name": "AA2280 (MIA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    25.79047, 
-    -80.296006, 
+    -122.370943,
+    25.79047,
+    -80.296006,
     37.61799
   ],
   "geometry": {"coordinates":[[-80.296006,25.79047],[-122.370943,37.61799]],"type":"MultiPoint"}

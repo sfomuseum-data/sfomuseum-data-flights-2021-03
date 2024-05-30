@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102526751,
     "sfomuseum:flight_id": "20210302-A-QTR-2362",
     "sfomuseum:flight_number": [
-      "QTR2362", 
+      "QTR2362",
       "QR2362"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1614787454,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729853815
+      }
+    ],
     "wof:id": 1729853815,
     "wof:involves": [
-      102527513, 
-      102526751, 
-      1159286153, 
-      -1, 
+      102527513,
+      102526751,
+      1159286153,
+      -1,
       1159283849
     ],
-    "wof:lastmodified": 1614787454,
+    "wof:lastmodified": 1717033194,
     "wof:name": "QR2362 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-112.017392,33.432684],[-122.370943,37.61799]],"type":"MultiPoint"}
